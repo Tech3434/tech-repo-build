@@ -21,3 +21,9 @@ PRIESTTECH
 ~ Отправка: Valuable Wizard Small Potion leaves через 10 с - никому не трогать
 ~ +62 опыта – Champions killed (x2)
 Dark Mac
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(3 applying...)</color>    <color=#9a9ca0>Потрачено: 4</color>     Билд: Нераскрытый потенциал → <color=#ffd75a>Specialist</color>  =>  Очков характеристик на трату: <b>0</b>   <color=#73ff66>(3 applying...)</color>    <color=#9a9ca0>Потрачено: 4</color>     Билд: Нераскрытый потенциал → <color=#ffd75a>Специалист</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(3 applying...)</color>    <color=#a3a6ad>Потрачено: 4</color>     Билд: Нераскрытый потенциал → <color=#ffd75a>Специалист</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(1 applying...)</color>    <color=#9a9ca0>Потрачено: 7</color>     Билд: Specialist → <color=#ffd75a>Spellslinger</color>  =>  Очков характеристик на трату: <b>0</b>   <color=#73ff66>(1 applying...)</color>    <color=#9a9ca0>Потрачено: 7</color>     Билд: Специалист → <color=#ffd75a>Чародей</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(1 applying...)</color>    <color=#a3a6ad>Потрачено: 7</color>     Билд: Специалист → <color=#ffd75a>Чародей</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 8</color>     Билд: <color=#ffd75a>Spellslinger</color>  =>  Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 8</color>     Билд: <color=#ffd75a>Чародей</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#a3a6ad>Потрачено: 8</color>     Билд: <color=#ffd75a>Чародей</color>

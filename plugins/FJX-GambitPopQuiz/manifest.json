@@ -1,9 +1,0 @@
-{
-  "name": "GambitPopQuiz",
-  "description": "Adds Gambit Pop Quiz as a custom enemy.",
-  "version_number": "1.0.3",
-  "dependencies": [
-    "Zehs-REPOLib-4.2.0"
-  ],
-  "website_url": "https://github.com/fangjx114514/REPO-GambitPopQuiz"
-}

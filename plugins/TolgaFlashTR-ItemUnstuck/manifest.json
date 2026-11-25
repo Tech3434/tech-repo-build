@@ -1,7 +1,0 @@
-{
-  "name": "ItemUnstuck",
-  "version_number": "1.0.3",
-  "website_url": "",
-  "description": "Detects valuables stuck in world geometry and relocates them to safe spawn slots. Includes optional HUD notifications, shows a valuable's initial (undamaged) value on grab, and can keep valuables invulnerable until first grab.",
-  "dependencies": ["BepInEx-BepInExPack-5.4.2304"]
-}

@@ -1,33 +1,33 @@
 {
   "version": 1,
-  "probedUtc": "2026-11-24T19:32:11.2369256Z",
+  "probedUtc": "2026-11-25T20:13:14.9225580Z",
   "accent": "#ff0020",
-  "text": "#c7e7e7",
+  "text": "#ffffff",
   "muted": "#606060",
-  "panel": "#ff00088f",
+  "panel": "#ff002080",
   "shadow": "#00000060",
   "shadowOffset": 1,
   "font": "Teko-VariableFont_wght SDF 1",
-  "textsSeen": 36,
-  "imagesSeen": 43,
+  "textsSeen": 49,
+  "imagesSeen": 52,
   "fonts": [
-    "Teko-VariableFont_wght SDF 1 x36"
+    "Teko-VariableFont_wght SDF 1 x49"
   ],
   "textColors": [
+    "#ffffffff x11",
     "#c7e7e7ff x8",
-    "#ffffffff x7",
     "#ff0020ff x4",
+    "#ff8f00ff x3",
+    "#606060ff x3",
     "#ffff00ff x3",
-    "#ff8f00ff x2",
-    "#58ff70ff x2",
     "#20ff00ff x2",
-    "#ff0008ff x1",
-    "#00a728ff x1",
-    "#00ff10ff x1"
+    "#58ff70ff x2",
+    "#e730afff x2",
+    "#484848ff x2"
   ],
   "panelColors": [
-    "#ff00088f x1",
     "#ff002080 x1",
+    "#ff00088f x1",
     "#ff00008f x1"
   ],
   "sounds": [

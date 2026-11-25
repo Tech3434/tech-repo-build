@@ -1,9 +1,0 @@
-{
-    "name": "OnlyHostShopkeeperSwitch",
-    "description": "The shopkeeper's on/off button only works for the host. Options to wake it on shop load and make it leave the host alone. Host install only.",
-    "version_number": "1.1.0",
-    "website_url": "",
-    "dependencies": [
-        "BepInEx-BepInExPack-5.4.2100"
-    ]
-}

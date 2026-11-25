@@ -24,7 +24,6 @@ RepoRPG RU 0.2.2 - шрифт меню
   NotoSansArabic-VariableFont_wdth,wght: 16 / 33 / 21; H 74 W 93 → 100 ★ 82
   Teko-VariableFont_wght: 16 / 22 / 15; H 38 W 55 → 100 ★ 82
   NotoSansThai-VariableFont_wdth,wght: 16 / 24 / 16; H 74 W 93 → 100 ★ 82
-  Teko-VariableFont_wght: 16 / 22 / 15; H 38 W 55 → 100 ★ 82
   * RepoRPG_RU: 16 / 22 / 15; H 38 W 55 → 100 ★ 82
 
 настройка мода Controls/UiFont: auto

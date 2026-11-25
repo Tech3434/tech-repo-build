@@ -1,9 +1,0 @@
-{
-    "name": "TrashBox",
-    "version_number": "1.3.0",
-	"website_url": "",
-    "description": "A trash-box that can destroy excess shop items and recover a certain amount of their value.",
-    "dependencies": [
-        "Zehs-REPOLib-4.1.0"
-    ]
-}
