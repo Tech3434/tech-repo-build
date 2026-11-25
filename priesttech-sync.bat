@@ -47,7 +47,7 @@ $remoteUrl = "https://github.com/$Owner/$Repo.git"
 
 $opt = @()
 if ($env:REPO_ARGS) {
-    $rawArgs = $env:REPO_ARGS -replace '\(["])', '$1'
+    $rawArgs = $env:REPO_ARGS.Replace('\"', '"')
     $opt = @([regex]::Matches($rawArgs, '"[^"]*"|\S+') | ForEach-Object { $_.Value.Trim('"') })
 }
 
