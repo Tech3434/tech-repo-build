@@ -1,10 +1,10 @@
-# R.E.P.O. Mutant Enemies 2.0.5
+# R.E.P.O. Mutant Enemies 2.0.6
 
 日本語の説明は英語のあとにあります。
 
 Familiar enemies can spawn as mutants with new attacks, traps, and ways to hunt your crew. Look for their colored auras and pay attention to the windups. A Clown can pull you into a kick, an Animal can leave a web across your escape route, and the teammate helping with the cart might be a decoy.
 
-**2.0.5 makes the Headgrab mutant's (Necromancer) fake player AI smarter so disguises explore rooms, open doors, and carry loot more naturally.** Since 2.0.3, the default mutation chance starts at 5% on level 1 and gains 5 percentage points per displayed level, up to 50%. The 2.0 overhaul features 26 mutants, including Quackback, Fusebell, Statues and Switchblade. The original 1.x versions of the retired mutants are excluded from natural spawns and the House Edge wheel. Wesley's Enemies integration is unavailable.
+**2.0.6 fixes Necromancer disguises inheriting a dead player's red flash, prevents mutant traps/dolls/webs from losing meshes or materials across level transitions, and prewarms mutant models, shaders, and audio to eliminate first-attack stutters. 2.0.5 made the Headgrab mutant's fake player AI smarter.** Since 2.0.3, the default mutation chance starts at 5% on level 1 and gains 5 percentage points per displayed level, up to 50%. The 2.0 overhaul features 26 mutants, including Quackback, Fusebell, Statues and Switchblade. The original 1.x versions of the retired mutants are excluded from natural spawns and the House Edge wheel. Wesley's Enemies integration is unavailable.
 
 ## Send me a mutant idea
 
@@ -12,7 +12,7 @@ I'm looking for ideas for the next mutants. Pick a base enemy and tell me what y
 
 If you're reporting a bug or suggesting a change to an existing feature, use the separate feedback form. Include the game version, mod version, affected mutant, and what happened just before the issue if you can. [Bug reports and feedback](https://docs.google.com/forms/d/e/1FAIpQLSfl7f-oNiwjXjd7mUkfQoqBIhbJhQhhfV-ZmovjJVQ9orwuYQ/viewform)
 
-## Mutants in 2.0.3
+## Included Mutants (26)
 
 | Base enemy | Mutant | What to watch for |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Release testing covered solo play, one authenticated host in a private room, and
 
 おなじみのR.E.P.O.の敵が、専用の攻撃・罠・追跡AIを持つ変異体として出現します。変異体は色付きのオーラが目印です。ピエロは鎖で引き寄せて蹴り、アニマルは帰り道にクモの巣を張り、仲間のふりをした偽物がカートのそばに現れます。
 
-**2.0.5ではヘッドグラバー変異体（ネクロマンサー）の偽プレイヤーAIを賢くし、部屋の探索やドアの開閉、貴重品の運搬などをより自然に行うようになりました。** 2.0.3から、通常の変異率はレベル1で5%、表示レベルごとに5ポイント上がり、最大50%です。「鳴き返し」「導火鈴」「だるまさん」「返し刃」を含む全26種類が出現します。未改修の旧変異は通常出現とハウスエッジのルーレットの対象外です。Wesley’s Enemies連携は未対応です。
+**2.0.6ではネクロマンサーの偽者が死亡時の赤みを引き継ぐ不具合、ステージ遷移後に罠・人形・巣などのモデル／マテリアルが消える不具合、およびラプチャーを含む各変異体の初回攻撃・出現時のカクつきをまとめて修正しました（2.0.5でネクロマンサーの偽プレイヤーAIも強化済み）。** 2.0.3から、通常の変異率はレベル1で5%、表示レベルごとに5ポイント上がり、最大50%です。「鳴き返し」「導火鈴」「だるまさん」「返し刃」を含む全26種類が出現します。未改修の旧変異は通常出現とハウスエッジのルーレットの対象外です。Wesley’s Enemies連携は未対応です。
 
 ### 変異体の案を募集中！
 
@@ -74,7 +74,7 @@ Release testing covered solo play, one authenticated host in a private room, and
 
 不具合や既存の仕様への要望は、別のフォームで受け付けています。ゲームとMODのバージョン、対象の変異体、直前の状況が分かると調べやすいです。 [不具合・要望フォーム](https://docs.google.com/forms/d/e/1FAIpQLSfl7f-oNiwjXjd7mUkfQoqBIhbJhQhhfV-ZmovjJVQ9orwuYQ/viewform)
 
-### 2.0.3の収録変異体
+### 収録変異体（全26種類）
 
 | 元の敵 | 変異体 | 主な能力 |
 | --- | --- | --- |

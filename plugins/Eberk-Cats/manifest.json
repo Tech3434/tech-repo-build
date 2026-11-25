@@ -1,10 +1,10 @@
 {
   "name": "Cats",
   "description": "Lots of cats for you to sel.. adopt!",
-  "version_number": "2.13.3",
+  "version_number": "2.13.4",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2305",
-    "Zehs-REPOLib-4.3.0"
+    "Zehs-REPOLib-4.5.1"
   ],
   "website_url": "https://ko-fi.com/eberk30"
 }

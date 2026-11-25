@@ -1,4 +1,20 @@
-# 2.0.5
+# 2.0.6
+
+- Fixed Necromancer disguises sometimes inheriting the red hurt/death flash or empty red health bar when copying a dead or recently hit player.
+- Fixed a brief hitch on Rupture's (Trudge mutant) first attack by prewarming its wave meshes, shader, dust particles and audio cues, and pooling wave segments.
+- Fixed Ringmaster traps/chains, Threadwraith dolls, Silkweaver webs/cocoons, Switchblade slash glints, and legacy procedural effects losing cached meshes or materials (or throwing `MissingReferenceException`) after `Resources.UnloadUnusedAssets()` between levels.
+- Prewarmed all remaining mutant OBJ/procedural models, materials, shaders, and Power Leech crystal textures, and cached Big Bang's HUD font so first encounters and crystal drops do not stall the frame or leak textures.
+- Reduced per-frame/per-tick GC allocations and scene scans in Fenrir, Railgun, Power Leech, Necromancer, and weapon target checks, and hardened audio/event cleanup on enemy teardown.
+
+## 日本語
+
+- ネクロマンサーの偽者が、死亡時や被弾直後のプレイヤーをコピーした際に赤くなった見た目（被弾オーバーレイや0HP表示）を引き継いでしまうことがある不具合を修正しました。
+- トラッジ変異体（ラプチャー）の初回攻撃時に少しカクつく現象を修正しました（モデル・シェーダー・土煙・効果音の事前読み込みと波動オブジェクトのプール化）。
+- ステージ遷移時の未使用アセット解放（`UnloadUnusedAssets`）によって、座長のトラバサミ／鎖、影縫いの人形、繭織りの巣／繭、返し刃の斬撃エフェクトなどの共有メッシュやマテリアルが破棄され、2ステージ目以降に透明化や例外が発生する不具合を修正しました。
+- 全変異体のモデル・マテリアル・シェーダーおよびパワーリーチの結晶テクスチャの事前キャッシュ化、ビッグバンHUDフォントの共有化を行い、初回攻撃・出現時のフレーム引っかかりとテクスチャリークを解消しました。
+- フェンリル・レールガン・パワーリーチ・ネクロマンサー等の物理判定やオブジェクト探索の毎フレーム割り当てを削減し、破棄時のループ音・イベント解除漏れを修正しました。
+
+## 2.0.5
 
 - Made the Headgrab mutant's (Necromancer) fake player AI smarter. Disguises now explore rooms on their own, look around, open closed doors, and handle valuables and obstacles more naturally instead of standing idle behind a player.
 

@@ -1,0 +1,10 @@
+{
+  "name": "BluePrince",
+  "description": "Adds Mt Holly Level",
+  "version_number": "1.3.2",
+  "dependencies": [
+    "Zehs-REPOLib-3.0.3",
+    "BepInEx-BepInExPack-5.4.2304"
+  ],
+  "website_url": ""
+}

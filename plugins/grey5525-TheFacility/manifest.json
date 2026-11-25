@@ -1,0 +1,9 @@
+{
+  "name": "TheFacility",
+  "description": "Adds a Custom Level and Valuables!",
+  "version_number": "1.1.7",
+  "dependencies": [
+    "Zehs-REPOLib-4.2.0"
+  ],
+  "website_url": "https://ko-fi.com/grey5525"
+}
