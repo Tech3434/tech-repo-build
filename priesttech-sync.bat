@@ -47,12 +47,13 @@ $remoteUrl = "https://github.com/$Owner/$Repo.git"
 
 $opt = @()
 if ($env:REPO_ARGS) {
-    $opt = @([regex]::Matches($env:REPO_ARGS, '"[^"]*"|\S+') | ForEach-Object { $_.Value.Trim('"') })
+    $rawArgs = $env:REPO_ARGS -replace '\(["])', '$1'
+    $opt = @([regex]::Matches($rawArgs, '"[^"]*"|\S+') | ForEach-Object { $_.Value.Trim('"') })
 }
 
 if ($opt -contains '/?' -or $opt -contains '--help' -or $opt -contains '-h') {
     Write-Host ""
-    Write-Host "tech-repo-sync — синхронизация локальной сборки с https://github.com/$Owner/$Repo"
+    Write-Host "priesttech-sync — синхронизация локальной сборки с https://github.com/$Owner/$Repo"
     Write-Host ""
     Write-Host "Использование: priesttech-sync.bat [ключи]"
     Write-Host ""
@@ -83,7 +84,7 @@ function Write-Head($text) { Write-Host ""; Write-Host $text -ForegroundColor Cy
 
 function Get-Json([string]$url) {
     $wc = New-Object Net.WebClient
-    $wc.Headers.Add('User-Agent', 'tech-repo-sync')
+    $wc.Headers.Add('User-Agent', 'priesttech-sync')
     $wc.Headers.Add('Accept', 'application/vnd.github+json')
     return ($wc.DownloadString($url) | ConvertFrom-Json)
 }
@@ -94,7 +95,7 @@ function Save-Url([string]$url, [string]$dest) {
         if ($LASTEXITCODE -ne 0) { throw "curl завершился с кодом $LASTEXITCODE" }
     } else {
         $wc = New-Object Net.WebClient
-        $wc.Headers.Add('User-Agent', 'tech-repo-sync')
+        $wc.Headers.Add('User-Agent', 'priesttech-sync')
         $wc.DownloadFile($url, $dest)
     }
 }
@@ -419,7 +420,7 @@ $script:curl = $curl
 $env:GIT_TERMINAL_PROMPT = '0' 
 
 Write-Host ""
-Write-Host "tech-repo-sync  ->  $root" -ForegroundColor Cyan
+Write-Host "priesttech-sync  ->  $root" -ForegroundColor Cyan
 
 if (Get-Process -Name 'REPO' -ErrorAction SilentlyContinue) {
     Write-Host "R.E.P.O. уже запущена. Закройте игру и запустите обновление снова." -ForegroundColor Yellow
