@@ -1,0 +1,19 @@
+# Публикуются только plugins, patchers, config и скрипт синхронизации
+/*
+!/plugins/
+!/patchers/
+!/config/
+!/.gitignore
+!/.gitattributes
+!/priesttech-sync.bat
+
+# Служебные и устаревшие копии
+*.old
+*.bak
+
+# Личные данные
+/config/RepoRPG/runs/
+/config/RepoRPG/saves/
+/config/RepoRPG/account.json
+/config/BattleScars/backups/
+/config/com.matsu.repomutations.backups/

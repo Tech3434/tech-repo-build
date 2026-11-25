@@ -1,0 +1,58 @@
+[
+  {
+    "Key": "handle-with-care-less-is-more",
+    "Type": "Mutual Exclusion",
+    "Mutators": [
+      "xepos.repo-mutators:handle-with-care",
+      "xepos.repo-mutators:less-is-more"
+    ],
+    "Enabled": true
+  },
+  {
+    "Key": "null-signal-required-amount-of-other-mutators",
+    "Type": "Requires Amount Of Other Mutators",
+    "Mutators": [
+      "xepos.repo-mutators:null-signal"
+    ],
+    "Arguments": {
+      "other-mutators-required-amount": 2
+    },
+    "Enabled": true
+  },
+  {
+    "Key": "protect-the-weak-protect-the-president",
+    "Type": "Mutual Exclusion",
+    "Mutators": [
+      "xepos.repo-mutators:protect-the-weak",
+      "xepos.repo-mutators:protect-the-president"
+    ],
+    "Enabled": true
+  },
+  {
+    "Key": "size-matters-rusty-servos",
+    "Type": "Mutual Exclusion",
+    "Mutators": [
+      "xepos.repo-mutators:size-matters",
+      "xepos.repo-mutators:rusty-servos"
+    ],
+    "Enabled": true
+  },
+  {
+    "Key": "the-floor-is-lava-one-shot-one-kill",
+    "Type": "Mutual Exclusion",
+    "Mutators": [
+      "xepos.repo-mutators:the-floor-is-lava",
+      "xepos.repo-mutators:one-shot-one-kill"
+    ],
+    "Enabled": true
+  },
+  {
+    "Key": "the-floor-is-lava-rusty-servos",
+    "Type": "Mutual Exclusion",
+    "Mutators": [
+      "xepos.repo-mutators:the-floor-is-lava",
+      "xepos.repo-mutators:rusty-servos"
+    ],
+    "Enabled": true
+  }
+]

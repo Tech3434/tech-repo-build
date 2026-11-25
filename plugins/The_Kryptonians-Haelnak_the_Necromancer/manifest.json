@@ -1,0 +1,10 @@
+{
+  "name": "Haelnak_the_Necromancer",
+  "version_number": "1.2.1",
+  "website_url": "",
+  "description": "Something robed drifts through the dark, and it doesn't let the dead rest. Fall to it and you may get up again. Just not as yourself.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "Zehs-REPOLib-4.2.0"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ReviveAll",
+  "version_number": "1.6.1",
+  "website_url": "",
+  "description": "When everyone is dead, revive the whole team at the truck instead of Game Over. Configurable revives and health, saved with your run, plus two buyable shop items: Revive and Revive Start Health.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Zehs-REPOLib-4.3.0"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Jelly",
+  "description": "Adds Jelly and Jammy, giant hopping gelatinous cubes that swallow players and loot. More nuisance than killer: hide inside one from worse monsters, or lure it to extraction and cash in what it ate.",
+  "version_number": "1.0.0",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "Zehs-REPOLib-4.5.1"
+  ],
+  "website_url": ""
+}

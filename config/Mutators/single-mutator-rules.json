@@ -1,0 +1,10 @@
+[
+  {
+    "Key": "exclude-null-signal",
+    "Type": "Exclusion",
+    "Mutators": [
+      "xepos.repo-mutators:null-signal"
+    ],
+    "Enabled": true
+  }
+]

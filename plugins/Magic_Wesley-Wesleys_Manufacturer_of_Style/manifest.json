@@ -1,0 +1,10 @@
+{
+    "name": "Wesleys_Manufacturer_of_Style",
+    "version_number": "1.1.1",
+    "website_url": "",
+    "description": "Crocs store level",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Zehs-REPOLib-3.0.2"
+    ]
+}

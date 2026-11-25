@@ -1,0 +1,31 @@
+RepoRPG RU 0.2.2 - шрифт меню
+
+папка шрифта: D:\Games\steam\steamapps\common\REPO\BepInEx\plugins\Ilya_lis-RepoRPG_RU\font
+попытка 1: набор ресурсов Unity RepoRPG_RU.bundle
+  файл прочитан: 180300 байт
+  набор открыт, шрифтов в нём: 1
+  шрифт из набора: RepoRPG_RU: 16 / 22 / 15; H 38 W 55 → 100 ★ 82
+  H (100 пикс.): по файлу 38, в игре 38
+  W (100 пикс.): по файлу 55, в игре 55
+  Ж (100 пикс.): по файлу 49, в игре 49
+  Ш (100 пикс.): по файлу 51, в игре 51
+  Д (100 пикс.): по файлу 36, в игре 37
+  ю (100 пикс.): по файлу 42, в игре 42
+шрифты в игре (размер / высота строки / подъём; ширина H, W и знаков → ★ при 100 пикс.):
+  LegacyRuntime: 13 / 14 / 11; H 72 W 94 → 100 ★ 82
+  NotoSansJP-VariableFont_wght: 16 / 23 / 18; H 70 W 84 → 100 ★ 100
+  NotoSansSC-VariableFont_wght: 16 / 23 / 18; H 70 W 84 → 100 ★ 100
+  NotoColorEmoji: 16 / -2147483648 / -2147483648; H 72 W 94 → 100 ★ 82
+  NotoSansTC-VariableFont_wght: 16 / 23 / 18; H 70 W 84 → 100 ★ 100
+  RobotoMono-Thin: 16 / 21 / 16; H 60 W 60 → 100 ★ 82
+  LiberationSans: 16 / 18 / 14; H 72 W 94 → 100 ★ 82
+  Oswald-VariableFont_wght-Cyrillic_subset: 1 / 1 / 1; H 72 W 94 → 100 ★ 82
+  NotoSansKR-VariableFont_wght: 16 / 23 / 18; H 70 W 84 → 100 ★ 100
+  NotoSansArabic-VariableFont_wdth,wght: 16 / 33 / 21; H 74 W 93 → 100 ★ 82
+  Teko-VariableFont_wght: 16 / 22 / 15; H 38 W 55 → 100 ★ 82
+  NotoSansThai-VariableFont_wdth,wght: 16 / 24 / 16; H 74 W 93 → 100 ★ 82
+  Teko-VariableFont_wght: 16 / 22 / 15; H 38 W 55 → 100 ★ 82
+  * RepoRPG_RU: 16 / 22 / 15; H 38 W 55 → 100 ★ 82
+
+настройка мода Controls/UiFont: auto
+итог: шрифт подключён: шрифт игры (Teko) с русскими буквами

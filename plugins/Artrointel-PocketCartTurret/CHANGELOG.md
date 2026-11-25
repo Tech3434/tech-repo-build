@@ -1,0 +1,37 @@
+# Changelog
+
+## 0.1.2
+
+- Update the build and compatibility checks for R.E.P.O. 0.5.0 (The Sunstone Update) and its Unity 6 assemblies.
+- Stop automation and clean up pending warnings when the weapon or pocket cart is destroyed or disabled, including pocket-cart pit destruction.
+- Remove partially installed hooks if initialization fails, and contain shot-gate exceptions while preserving native weapon behavior.
+- Update Debug-only stage equipment spawning to run after deferred level generation actually completes. Test spawning remains excluded from Release.
+- Preserve host-only installation, native firing and warning RPCs, normal battery consumption, 70% detection range, and the two-second continuous-tracking delay.
+
+## 0.1.1
+
+- Clarify that the cart works as an unattended stationary turret as well as mobile fire support. No player needs to hold or push it.
+- Documentation update; gameplay is unchanged.
+
+## 0.1.0
+
+- Introduce PocketCartTurret: turn a pocket cart with a mounted cannon or laser into a mobile automatic turret. Only the host needs the mod; vanilla friends can join.
+- Add the PocketCartTurret artwork and final Thunderstore icon.
+
+- Keep pending warning mines through brief detection loss, defer arming audio until native initialization, and retain warning audio throughout long tracking/alignment waits.
+
+- Add a temporary vanilla Explosive Mine with repeating arming beeps at first detection, a two-second continuous-tracking hold before the first shot, and network cleanup before firing. Stock clients receive the native Arming state RPC. Warning mines cannot arm, trigger, or explode.
+
+- Preserve vanilla upright stabilization and damping while steering the cart weapon's heading.
+- Preserve upright posture on the cart and acquire targets only from the actual muzzle with a yaw-only sweep; never synthesize a corrected barrel pose.
+- Ignore non-enemy trigger volumes in firing visibility checks.
+- Add host-controlled automatic cannon and laser targeting on mini carts.
+- Restrict detection to 70% of vanilla weapon range and a clear, reachable horizontal firing ray.
+- Track the nearest live enemy without controlling pitch or restricting cart pulling.
+- Reuse vanilla firing, battery, damage, effects, and network synchronization.
+- Add Debug-only mission-start test equipment; exclude it from Release and require Release packaging.
+
+- Spawn and follow warning mines at the mounted weapon position. Restart the two-second tracking hold after any tracking loss, while reusing a pending mine through brief loss.
+
+- Remove experimental audio/visual diagnostics, prefab probes, and the F8 sound test. Keep only useful lifecycle/error logs and Debug mission equipment.
+- Replay initial warning settings to late joiners and block inventory equip requests.

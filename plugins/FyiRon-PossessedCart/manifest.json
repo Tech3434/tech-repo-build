@@ -1,0 +1,9 @@
+{
+  "name": "PossessedCart",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "A dead player's head thrown into a cart can drive it and fire its cannon. By FyiRon.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2304"
+  ]
+}

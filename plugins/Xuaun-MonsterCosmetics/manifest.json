@@ -1,0 +1,7 @@
+{
+  "name": "MonsterCosmetics",
+  "description": "R.E.P.O. monsters cosmetics! Play as your favorite monsters with these cosmetic items built from the meshes of the game's own enemies.",
+  "version_number": "1.1.3",
+  "dependencies": ["Zehs-REPOLib-4.2.0"],
+  "website_url": ""
+}

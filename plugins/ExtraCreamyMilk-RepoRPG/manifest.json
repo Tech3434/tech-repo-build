@@ -1,0 +1,11 @@
+{
+  "name": "RepoRPG",
+  "author": "ExtraCreamyMilk",
+  "version_number": "1.0.100",
+  "website_url": "",
+  "description": "Turns R.E.P.O. into a co-op roguelite RPG: pick from 30 classes, level up talent trees, collect gear and perks, and take on contracts and bosses. Lobbies of up to 20. Everyone in the lobby needs it installed. Formerly Semibot RPG.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "REPOModding-MenuLib-2.6.0"
+  ]
+}

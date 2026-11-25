@@ -1,0 +1,10 @@
+{
+  "name": "GeneratorMod",
+  "version_number": "0.3.0",
+  "website_url": "",
+  "description": "Buyable shop upgrade that slowly recharges the truck's energy bar during levels.",
+  "dependencies": [
+		"BepInEx-BepInExPack-5.4.2305",
+		"Zehs-REPOLib-4.3.0"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "RobeCalling",
+  "version_number": "1.0.6",
+  "website_url": "",
+  "description": "Robe ringtone: the Arctic Phone plays the 'Robe is my wife' song from Semiwork's YouTube, with a matching Robe phone screen. Singleplayer and multiplayer, works on R.E.P.O. v0.4.",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2305"]
+}

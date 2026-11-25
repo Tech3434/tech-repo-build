@@ -1,0 +1,2286 @@
+RepoRPG RU 0.2.2 - отчёт о последней сборке перевода
+оригинал: D:\Games\steam\steamapps\common\REPO\BepInEx\plugins\ExtraCreamyMilk-RepoRPG\RepoRPG.dll  (версия 1.0.100)
+копия:    версия 1.0.100.1
+словарь:  10090 записей из 1 файлов, отклонено 0
+методов: 5481, строковых литералов: 17666
+заменено в коде: 3277 (из них по области: 706)
+не тронуто (идентификатор/ключ/лог): 683
+оставлено на перевод при выводе (одиночные слова): 667
+оставлено на перевод при выводе (мод узнаёт эти тексты по словам): 30  [проверок текста в моде: 87]
+оставлено на перевод при выводе (часть составной фразы, которую нельзя заменить целиком): 2
+не тронуто (исключённые типы): 291
+точек перевода при выводе: 30 + 16 в местах вызова, правил без цели: 0
+шрифт меню: мест, где мод теперь спрашивает шрифт у русификатора: 1, правил без цели: 0  (что из этого вышло в игре - в font.txt рядом с этим файлом)
+данные (JSON): заменено 943 значений в 2 файлах
+перечисления в константах: известно 1, запрошено 1; обращений к чужим сборкам: 0
+записей словаря, не найденных в коде этой версии: 593
+
+--- подробности ---
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::ScanCharger  "grabbed"
+left to display time (single word, stloc.3): RpgRuntime::InteractKey  "LMB"
+left to display time (single word, stloc.3): RpgRuntime::InteractKey  "RMB"
+left to display time (single word, stloc.3): RpgRuntime::InteractKey  "MMB"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnAllyBuff  "Rally Cry"
+left to display time (single word, RepoRPG.RpgRuntime::NoteHeal#2): RpgRuntime::OnKillNear  "Feed"
+left to display time (also used as id, stfld): RpgRuntime::ToggleCartFollow  "follow off"
+left to display time (single word, stfld): RpgRuntime::ToggleCartFollow  "following"
+kept, used as id (System.String::op_Equality): RpgRuntime::NewClassHudLines  "stuck"
+kept, used as id (System.String::op_Equality): RpgRuntime::NewClassHudLines  "no route"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::TickPull  "died"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::TickPull  "knocked over / grabbed"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::TickPull  "hit"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::TickPull  "left the level / menu"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::TickPull  "took too long"
+kept, used as id (System.String::op_Inequality): RpgRuntime::EndPull  "left the level / menu"
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::HoldingSmall  "grabbed"
+kept, used as id (System.String::op_Equality): RpgRuntime::ThirdWaveAction  "Overclock"
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::ThirdWaveAction  "grabbed"
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::TickGrappler  "grabbed"
+kept, used as id (RepoRPG.RpgRuntime::EndPull): RpgRuntime::ThirdWaveReset  "left the level / menu"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawHookReticle  "Jump: push off  ·  Crouch: drop"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawHookReticle  "Jump / Crouch: drop"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawHookReticle  "Jump: climb up  ·  Crouch: drop"
+left to display time (single word, RepoRPG.RpgRuntime::NoteHeal#2): RpgRuntime::AttrOnRevived  "Lifeblood"
+left to display time (single word, stelem.ref): RpgRuntime::AttrNoteUnlocks  "Milestone"
+left to display time (single word, stelem.ref): RpgRuntime::AttrNoteUnlocks  "Pairing"
+kept, used as id (System.String::op_Equality): RpgRuntime::RefreshClassOffer  "class"
+left to display time (single word, stind.ref): RpgRuntime::CanAccept  "Accepted"
+left to display time (also used as id, stind.ref): RpgRuntime::CanAccept  "Waiting for the host"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnContractReply  "closed"
+kept, used as id (System.String::op_Equality): RpgRuntime::CEvOne  "kill"
+kept, used as id (System.String::op_Equality): RpgRuntime::CEvOne  "kill"
+kept, used as id (System.String::op_Equality): RpgRuntime::CEvOne  "boss"
+kept, used as id (System.String::op_Equality): RpgRuntime::CEvOne  "death"
+kept, used as id (System.String::op_Equality): RpgRuntime::CEvOne  "revive"
+kept, used as id (System.String::op_Equality): RpgRuntime::CEvOne  "kill"
+kept, used as id (System.String::op_Equality): RpgRuntime::CEvOne  "revive"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::PaidCore  "contract"
+left to display time (single word, RepoRPG.RpgRuntime::AddHistory#1): RpgRuntime::PaidCore  "Complete"
+left to display time (single word, RepoRPG.RpgRuntime::AddHistory#1): RpgRuntime::PaidCore  "Complete"
+left to display time (the mod tests texts with Contains("pick waiting") in RpgRuntime::TakeReward): RpgRuntime::PaidCore  " + pick waiting"
+left to display time (single word, RepoRPG.RpgRuntime::AddHistory#1): RpgRuntime::FailContract  "Failed"
+left to display time (the mod tests texts with StartsWith("Chain") in RpgRuntime::DrawHistoryLine): RpgRuntime::FailContract  "Chain step failed - it can be retried once on a later board"
+left to display time (the mod tests texts with StartsWith("Chain") in RpgRuntime::DrawHistoryLine): RpgRuntime::FailContract  "Chain ended: "
+kept, used as id (System.String::op_Equality): RpgRuntime::GiveChainReward  "servos"
+kept, used as id (System.String::op_Equality): RpgRuntime::GiveChainReward  "weapon"
+kept, used as id (RepoRPG.Gear::RollExact): RpgRuntime::GiveChainReward  "weapon"
+kept, used as id (RepoRPG.Gear::RollExact): RpgRuntime::GiveChainReward  "plating"
+kept, used as id (RepoRPG.Gear::RollExact): RpgRuntime::GiveChainReward  "servos"
+kept, used as id (System.String::op_Equality): RpgRuntime::TakeReward  "gear"
+kept, used as id (System.String::op_Equality): RpgRuntime::TakeReward  "module"
+left to display time (also used as id, RepoRPG.RpgRuntime::FindGear#1): RpgRuntime::TakeReward  "contract reward"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::TakeReward  "contract reward"
+left to display time (also used as id, RepoRPG.RpgRuntime::AddModule#1): RpgRuntime::TakeReward  "contract reward"
+left to display time (also used as id, RepoRPG.RpgRuntime::RollModuleDrop#1): RpgRuntime::TakeReward  "contract reward"
+kept, used as id (RepoRPG.RpgRuntime::Curse): RpgRuntime::TickCurses  "overdrive"
+left to display time (single word, RepoRPG.RpgRuntime::GiveGear#1): RpgRuntime::OnCursedDrop  "boss"
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::TickGear  "grabbed"
+kept, log/network (RepoRPG.Net::SendHealNotice): RpgRuntime::GearOnKill  "Leech Coil"
+left to display time (single word, RepoRPG.RpgRuntime::AddModule#1): RpgRuntime::CraftModule  "crafted"
+skipped (excluded type): RpgRuntime::LoadoutAt  "Loadout {0}"
+kept, log/network (BepInEx.Logging.ManualLogSource::LogInfo): RpgRuntime::OnLateJoinWelcome  "in the truck"
+kept, log/network (BepInEx.Logging.ManualLogSource::LogInfo): RpgRuntime::OnLateJoinWelcome  "in the shop"
+kept, log/network (BepInEx.Logging.ManualLogSource::LogInfo): RpgRuntime::TickJoinWatch  "none"
+left to display time (single word, stelem.ref): RpgRuntime::TickJoinWatch  "no"
+left to display time (single word, RepoRPG.RpgRuntime::NoteHeal#2): RpgRuntime::TickPerks  "Ultramarathon"
+kept, used as id (RepoRPG.Guard::On): RpgRuntime::UpdateMain  "mod shop"
+kept, used as id (RepoRPG.Guard::Fail): RpgRuntime::UpdateMain  "mod shop"
+kept, used as id (RepoRPG.Guard::On): RpgRuntime::UpdateMain  "research"
+kept, used as id (RepoRPG.Guard::Fail): RpgRuntime::UpdateMain  "research"
+left to display time (single word, stelem.ref): RpgRuntime::EnsureRun  "none"
+kept, used as id (RepoRPG.PatchGuard::Run): RpgRuntime::EnsureRun  "class starter"
+kept, used as id (RepoRPG.RpgRuntime::TryDeathSave): RpgRuntime::ModifyIncomingDamage  "hit"
+kept, used as id (RepoRPG.RpgRuntime::TryDeathSave): RpgRuntime::ModifyIncomingDamage  "hit"
+left to display time (single word, RepoRPG.RpgRuntime::NoteHeal#2): RpgRuntime::TickRegen  "Regeneration"
+kept, log/network (RepoRPG.Net::SendHealNotice): RpgRuntime::TickAura  "Healing aura"
+left to display time (single word, RepoRPG.RpgRuntime::NoteHeal#2): RpgRuntime::TickHealOverTime  "Healing"
+kept, used as id (RepoRPG.Contracts::Progress): RpgRuntime::TryUseActive  "Specialist"
+kept, used as id (RepoRPG.Contracts::Progress): RpgRuntime::OnActionAcked  "Specialist"
+kept, used as id (System.String::op_Equality): RpgRuntime::ExecuteActive  "Resupply"
+kept, used as id (System.String::op_Equality): RpgRuntime::ExecuteActive  "Resupply"
+kept, used as id (RepoRPG.RpgRuntime::CEv): RpgRuntime::OnEnemyKilled  "boss"
+kept, used as id (RepoRPG.RpgRuntime::CEv): RpgRuntime::OnEnemyKilled  "kill"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::OnEnemyKilled  "kill"
+left to display time (the mod tests texts with EndsWith(" kill") in RpgRuntime::XpLabel): RpgRuntime::OnEnemyKilled  " kill"
+left to display time (single word, RepoRPG.RpgRuntime::NoteHeal#2): RpgRuntime::OnEnemyKilled  "Kill"
+left to display time (single word, RepoRPG.RpgRuntime::FindGear#1): RpgRuntime::OnEnemyKilled  "bounty"
+kept, used as id (RepoRPG.RpgRuntime::CEv): RpgRuntime::OnPlayerRevived  "revive"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::OnPlayerRevived  "revive"
+kept, used as id (RepoRPG.RpgRuntime::CEv): RpgRuntime::OnPlayerDied  "death"
+kept, used as id (RepoRPG.RpgRuntime::EndPull): RpgRuntime::ClearOnDeath  "died"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::OnTeamXp  "extraction"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::OnTeamXp  "extraction"
+left to display time (single word, RepoRPG.RpgRuntime::FindGear#1): RpgRuntime::OnTeamXp  "extraction"
+left to display time (single word, RepoRPG.RpgRuntime::NoteHeal#2): RpgRuntime::OnTeamXp  "Extraction"
+left to display time (also used as id, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::OnTeamXp  "level complete"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnTeamXp  "gear"
+scoped entry ignored, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::OnTeamXp  "route: "
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::RewardContracts  "contract"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::RewardContracts  "contract"
+left to display time (single word, RepoRPG.RpgRuntime::FindGear#1): RpgRuntime::RewardContracts  "contract"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::Salvage  "salvage"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnBuyResult  "shop closed"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnBuyResult  "not verified"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPurchaseNotice  "crate"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPurchaseNotice  "premium"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPurchaseNotice  "upgrade"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPurchaseNotice  "reroll"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPurchaseNotice  "module"
+left to display time (the mod tests texts with StartsWith("gear") in RpgRuntime::DemandName): RpgRuntime::OnPurchaseNotice  "gear from Rivet"
+kept, used as id (RepoRPG.RpgRuntime::Buy): RpgRuntime::BuyGearCrate  "crate"
+kept, used as id (RepoRPG.RpgRuntime::Buy): RpgRuntime::BuyGearCrate  "premium"
+left to display time (the mod tests texts with StartsWith("gear") in RpgRuntime::DemandName): RpgRuntime::BuyGearCrate  "gear crate"
+left to display time (single word, stloc.2): RpgRuntime::BuyGearReroll  "Rerolls"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::OnUpgradeUsed  "upgrade"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuyEntry  "module"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuyEntry  "gear"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuyEntry  "module"
+left to display time (single word, stfld): RpgRuntime::BuyEntry  "item"
+left to display time (single word, stfld): RpgRuntime::BuyEntry  "module"
+kept, used as id (RepoRPG.RpgRuntime::Buy): RpgRuntime::BuyCrate  "crate"
+kept, used as id (RepoRPG.RpgRuntime::Buy): RpgRuntime::BuyCrate  "premium"
+kept, used as id (HarmonyLib.AccessTools::Property): RpgRuntime::Resolve  "Player"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "closed"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "OPEN"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "visible"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "OFF"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "on"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "off"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "on"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "no"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "off"
+left to display time (single word, stelem.ref): RpgRuntime::Describe  "ON"
+left to display time (single word, stelem.ref): RpgRuntime::OnBossSpawned  "BOSS"
+kept, used as id (RepoRPG.RpgRuntime::Notify): RpgRuntime::OnBossSpawned  "boss"
+left to display time (single word, RepoRPG.RpgRuntime::GiveGear#1): RpgRuntime::BossReward  "boss"
+left to display time (single word, RepoRPG.RpgRuntime::RollModuleDrop#1): RpgRuntime::BossReward  "boss"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPartGrant  "gone"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::PartsOnDodge  "5 dodges"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::PartsOnSalvage  "salvage"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::PartsOnSalvage  "salvage"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::PartsOnSalvage  "salvage"
+left to display time (single word, stfld): RpgRuntime::RefreshHostStatus  "Apply"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawPresetNamer>g__SmallKey|974_0#0): RpgRuntime::DrawPresetNamer  "Space"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawPresetNamer>g__SmallKey|974_0#0): RpgRuntime::DrawPresetNamer  "Delete"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawPresetNamer>g__SmallKey|974_0#0): RpgRuntime::DrawPresetNamer  "Clear"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawPresetNamer>g__SmallKey|974_0#0): RpgRuntime::DrawPresetNamer  "Save"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawPresetNamer>g__SmallKey|974_0#0): RpgRuntime::DrawPresetNamer  "Rename"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawPresetNamer>g__SmallKey|974_0#0): RpgRuntime::DrawPresetNamer  "Cancel"
+skipped (excluded type): RpgRuntime::HostCommit  " is outside "
+skipped (excluded type): RpgRuntime::HostCommit  ", set to "
+left to display time (single word, stloc.3): RpgRuntime::ShownTextOf  "Off"
+left to display time (single word, stloc.3): RpgRuntime::ShownTextOf  "On"
+left to display time (single word, RepoRPG.RpgRuntime::SecondaryAction#1): RpgRuntime::DrawHostRow  "Reset"
+left to display time (single word, RepoRPG.RpgRuntime::Stepper#8): RpgRuntime::DrawHostRow  "Reset"
+left to display time (single word, RepoRPG.RpgRuntime::Stepper#8): RpgRuntime::DrawHostRow  "Reset"
+kept, used as id (RepoRPG.RpgRuntime::Notify): RpgRuntime::OnCrewStateC  "sponsor"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRowsC  "drill"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRowsC  "Change"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRowsC  "Vote"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRowsC  "sponsor"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRowsC  "Change"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRowsC  "Vote"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawVotePanelC  "drill"
+kept, log/network (local -> RepoRPG.Net::SendUplink): RpgRuntime::TrySpectatorPingC  "VALUABLE ${0:N0}"
+kept, log/network (local -> RepoRPG.Net::SendUplink): RpgRuntime::TrySpectatorPingC  "MONSTER"
+left to display time (single word, RepoRPG.RpgRuntime::TradeCycle#2): RpgRuntime::DrawGearExchange  "Teammate:"
+skipped (excluded type): RpgRuntime::HostTradeTick  "no answer in time"
+skipped (excluded type): RpgRuntime::HostTradeTick  "a level started"
+skipped (excluded type): RpgRuntime::HostTradeTick  "a player left"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "that teammate isn't here"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "another trade is open right now (try again in a moment)"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "trades happen in the shop"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "research is off in this lobby"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "the host can't see the gear yet (try again in a moment)"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "that item can't be traded"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "that trade is no longer open"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "a level started"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "the host can't see the gear"
+skipped (excluded type): RpgRuntime::HostTradeRequest  "the offered item: "
+skipped (excluded type): RpgRuntime::HostTradeRequest  "your item: "
+skipped (excluded type): RpgRuntime::HostTradeRequest  "an item is missing"
+skipped (excluded type): RpgRuntime::HostTradeRequest  " declined"
+skipped (excluded type): RpgRuntime::HostTradeRequest  " cancelled the offer"
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::TickResearchE  "grabbed"
+left to display time (single word, stfld): RpgRuntime::ResearchRestockE  "gear"
+left to display time (single word, stfld): RpgRuntime::ResearchRestockE  "gear"
+left to display time (single word, stfld): RpgRuntime::ResearchRestockE  "gear"
+skipped (excluded type): RpgRuntime::MakePrototypeE  "Prototype "
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::DrawPawnE  "Waiting for the host"
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::DrawPawnE  "Worth nothing to the pawn counter"
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::DrawPawnE  "Shop closed - it opens between levels"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPawnResultE  "equipped"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPawnResultE  "gone"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPawnResultE  "done"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPawnResultE  "shop closed"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPawnResultE  "off"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnPawnResultE  "worthless"
+skipped (excluded type): RpgRuntime::HostPawnE  "off"
+skipped (excluded type): RpgRuntime::HostPawnE  "shop closed"
+skipped (excluded type): RpgRuntime::HostPawnE  "not verified"
+skipped (excluded type): RpgRuntime::HostPawnE  "done"
+skipped (excluded type): RpgRuntime::HostPawnE  "gone"
+skipped (excluded type): RpgRuntime::HostPawnE  "equipped"
+skipped (excluded type): RpgRuntime::HostPawnE  "worthless"
+skipped (excluded type): RpgRuntime::HostPawnE  "worthless"
+skipped (excluded type): RpgRuntime::HostPawnE  "Pawned "
+left to display time (single word, RepoRPG.RpgRuntime::HeadE#2): RpgRuntime::DrawFuturesE  "FUTURES"
+left to display time (single word, stloc.s): RpgRuntime::MarksX  "HITCHED"
+kept, used as id (System.String::op_Equality): RpgRuntime::AskSalvageBulk  "none"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnSalvageResult  "equipped"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnSalvageResult  "gone"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnSalvageResult  "done"
+kept, used as id (System.String::op_Equality): RpgRuntime::OnSalvageResult  "done"
+left to display time (single word, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::OnSalvageResult  "salvage"
+skipped (excluded type): RpgRuntime::HostSalvage  "not verified"
+skipped (excluded type): RpgRuntime::HostSalvage  "done"
+skipped (excluded type): RpgRuntime::HostSalvage  "it's in a gear trade right now"
+skipped (excluded type): RpgRuntime::HostSalvage  "gone"
+skipped (excluded type): RpgRuntime::HostSalvage  "equipped"
+skipped (excluded type): RpgRuntime::HostSalvage  "Salvaged "
+skipped (excluded type): RpgRuntime::HostSalvage  "Salvaged gear"
+left to display time (also used as id, RepoRPG.RpgRuntime::GiveGear#1): RpgRuntime::EnsureStarterGear  "class starter"
+left to display time (also used as id, RepoRPG.RpgRuntime::GiveGear#1): RpgRuntime::ApplyTeamResult  "team contract"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::ApplyTeamResult  "team contract"
+kept, used as id (RepoRPG.Notices::ActedOn): RpgRuntime::VoteTeam  "team"
+kept, used as id (RepoRPG.RpgRuntime::WaitingFor): RpgRuntime::TeamBoxBody  "team"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawTeamContractBox  "team"
+kept, used as id (RepoRPG.RpgRuntime::AddParts): RpgRuntime::GiveStarterUnlocks  "Field kit"
+left to display time (single word, stelem.ref): RpgRuntime::DrawUnlocks  "All"
+left to display time (single word, stelem.ref): RpgRuntime::DrawUnlocks  "Earned"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::DrawUnlocks  "Earned"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::DrawMastery  "Mastered"
+kept, used as id (System.Array::IndexOf): RpgRuntime::DrawMastery  "Class"
+left to display time (single word, stloc.s): RpgRuntime::RefreshAttrCache  "Milestone"
+left to display time (single word, stloc.s): RpgRuntime::RefreshAttrCache  "Pairing"
+left to display time (single word, stloc.s): RpgRuntime::DrawAttributesTab  "pending"
+left to display time (single word, stloc.s): RpgRuntime::DrawAttributesTab  "applying..."
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::DrawAttributesTab  "Other"
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::DrawAttributesTab  "Next: {0} at {1}"
+scoped entry ignored, used as id (local -> System.String::op_Equality): RpgRuntime::DrawAttributesTab  "<color=#ffd75a>NEW: "
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::DrawAttributesTab  "Milestones are turned off by the host"
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::DrawAttributesTab  "<color=#ffd75a>All milestones reached</color>"
+left to display time (single word, stfld): RpgRuntime::AttrDetail  "Maxed."
+left to display time (single word, RepoRPG.DetailInfo::Act#4): RpgRuntime::AttrDetail  "Maxed."
+left to display time (single word, stelem.ref): RpgRuntime::RaiseClassChanged  "none"
+left to display time (single word, stelem.ref): RpgRuntime::RaiseClassChanged  "none"
+kept, used as id (RepoRPG.PatchGuard::Run): RpgRuntime::RaiseClassChanged  "class starter"
+kept, used as id (System.String::op_Inequality): RpgRuntime::SetMenuOpen  "Guide"
+left to display time (single word, stsfld): RpgRuntime::DrawHud  "death"
+left to display time (single word, stelem.ref): RpgRuntime::ClassBlockDiag  "none"
+left to display time (single word, stloc.0): RpgRuntime::BuildClassLines  "READY"
+left to display time (single word, stelem.ref): RpgRuntime::Direction  "ahead"
+left to display time (single word, stelem.ref): RpgRuntime::Direction  "right"
+left to display time (single word, stelem.ref): RpgRuntime::Direction  "left"
+kept, used as id (System.String::op_Inequality): RpgRuntime::DrawMenuContent  "Guide"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawMenuContent  "All"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::ClassGroups  "Other"
+left to display time (the mod tests texts with StartsWith("Taken by") in RpgRuntime::DrawClassHeader): RpgRuntime::DrawPageButtons  "Taken by "
+left to display time (single word, System.ValueTuple`4::.ctor#0): RpgRuntime::DrawAbilityChips  "SYNERGIES"
+left to display time (single word, System.ValueTuple`4::.ctor#1): RpgRuntime::DrawAbilityChips  "SYNERGIES"
+scoped entry ignored, used as id (local -> System.String::StartsWith): RpgRuntime::DrawClassHeader  "Play as "
+kept, used as id (local -> System.String::StartsWith): RpgRuntime::DrawClassHeader  "Checking..."
+scoped entry ignored, used as id (local -> System.String::StartsWith): RpgRuntime::DrawClassHeader  "Taken by "
+left to display time (single word, stloc.s): RpgRuntime::DrawClassHeader  "MAX"
+left to display time (single word, stelem.ref): RpgRuntime::TipForNode  "CAPSTONE"
+scoped entry ignored, used as id (local -> System.String::op_Inequality): RpgRuntime::TipForNode  "Needs a point in "
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::TipForNode  "class level {0}"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::TipForNode  "Click: add a point · right-click: take a pending one back"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawOfferCard  "Accepted"
+kept, used as id (System.String::op_Inequality): RpgRuntime::DrawOfferCard  "Waiting for the host"
+kept, used as id (RepoRPG.RpgRuntime::DrawIcon): RpgRuntime::DrawOfferCard  "loot"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawOfferCard  "Taken"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::DrawActiveColumn  "CHAINS"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawActiveColumn  "this level"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawActiveColumn  "{0}/{1} taken for the next level"
+kept, used as id (System.Array::IndexOf): RpgRuntime::DrawMoreVotesRow  "Votes"
+kept, used as id (RepoRPG.RpgRuntime::CtItem): RpgRuntime::DrawTeamRow  "team"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawTeamRow  "team"
+kept, used as id (System.String::op_Inequality): RpgRuntime::DrawTeamRow  "team"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawTeamRow  "team"
+left to display time (single word, stloc.s): RpgRuntime::DrawTeamRow  "Vote"
+left to display time (single word, stloc.s): RpgRuntime::DrawTeamRow  "Voted"
+left to display time (single word, stloc.s): RpgRuntime::DrawTeamRow  "Accepted"
+left to display time (single word, stloc.s): RpgRuntime::DrawTeamRow  "Complete"
+left to display time (single word, stloc.s): RpgRuntime::DrawTeamRow  "Failed"
+left to display time (single word, stloc.s): RpgRuntime::DrawTeamRow  "Declined"
+left to display time (the mod tests texts with StartsWith("Complete") in RpgRuntime::DrawHistoryLine): RpgRuntime::DrawActiveRow  "Complete"
+left to display time (single word, stloc.s): RpgRuntime::DrawChainRow  "Done"
+kept, used as id (System.String::StartsWith): RpgRuntime::DrawHistoryLine  "Complete"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawHistoryLine  "Failed"
+kept, used as id (RepoRPG.RpgRuntime::CtItem): RpgRuntime::DrawHistoryLine  "history"
+left to display time (single word, stfld): RpgRuntime::DrawHistoryLine  "history"
+left to display time (single word, RepoRPG.RpgRuntime::CtSelect#0): RpgRuntime::DrawHistoryLine  "history"
+kept, used as id (System.String::op_Equality): RpgRuntime::FillContractDetail  "Accepted"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillContractDetail  "Taken"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillContractDetail  "Done"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillContractDetail  "Failed"
+left to display time (single word, stfld): RpgRuntime::FillContractDetail  "OBJECTIVE"
+left to display time (single word, stfld): RpgRuntime::FillContractDetail  "REWARD"
+left to display time (single word, stfld): RpgRuntime::FillContractDetail  "STAKES"
+kept, used as id (System.String::op_Inequality): RpgRuntime::FillContractDetail  "Accepted"
+kept, used as id (System.String::op_Equality): RpgRuntime::FillContractDetail  "Accepted"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::FillContractDetail  "Accept"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::FillContractDetail  "Accepted"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillTeamDetail  "Complete"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillTeamDetail  "Failed"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillTeamDetail  "Declined"
+left to display time (single word, stfld): RpgRuntime::FillTeamDetail  "OBJECTIVE"
+left to display time (single word, stfld): RpgRuntime::FillTeamDetail  "REWARD"
+left to display time (the mod tests texts with StartsWith("Chain") in RpgRuntime::DrawHistoryLine): RpgRuntime::FillChainDetail  "Chain · {0} steps"
+left to display time (single word, stfld): RpgRuntime::FillChainDetail  "STEPS"
+left to display time (single word, stfld): RpgRuntime::FillChainDetail  "NEEDS"
+left to display time (single word, stfld): RpgRuntime::FillGiverDetail  "REPUTATION"
+left to display time (single word, stfld): RpgRuntime::FillCrewDetail  "BONUSES"
+kept, used as id (System.String::StartsWith): RpgRuntime::FillHistoryDetail  "Complete"
+kept, used as id (System.String::op_Equality): RpgRuntime::FillHistoryDetail  "Failed"
+kept, used as id (System.String::op_Equality): RpgRuntime::FillHistoryDetail  "Failed"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawRewardChoice  "reward"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRewardChoice  "module"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BindClashes  "Confirm"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BindClashes  "Back"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BindClashes  "Confirm"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BindClashes  "Back"
+left to display time (single word, ret): RpgRuntime::PrettyChord  "UNBOUND"
+kept, used as id (System.String::op_Equality): RpgRuntime::PrettyChord  "left"
+kept, used as id (System.String::op_Equality): RpgRuntime::PrettyChord  "right"
+left to display time (single word, RepoRPG.RpgRuntime::SectionWithReset#2): RpgRuntime::DrawControlsTab  "INTERFACE"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "TEXT SIZE"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "TEXT SIZE"
+left to display time (single word, RepoRPG.RpgRuntime::ToggleW#0): RpgRuntime::DrawControlsTab  "Banner"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "LIST"
+left to display time (single word, stloc.s): RpgRuntime::DrawControlsTab  "OVERVIEW"
+left to display time (single word, stloc.s): RpgRuntime::DrawControlsTab  "TALENTS"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "CLASS TAB"
+left to display time (single word, stloc.s): RpgRuntime::DrawControlsTab  "OFF"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "AUTO-HIDE"
+left to display time (single word, RepoRPG.RpgRuntime::Toggle#1): RpgRuntime::DrawControlsTab  "Banner"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "LIST"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "CLASS TAB"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "AUTO-HIDE"
+left to display time (single word, RepoRPG.RpgRuntime::SectionWithReset#2): RpgRuntime::DrawControlsTab  "ACCESSIBILITY"
+left to display time (single word, RepoRPG.RpgRuntime::ToggleW#0): RpgRuntime::DrawControlsTab  "Colorblind-friendly"
+left to display time (single word, RepoRPG.RpgRuntime::Toggle#1): RpgRuntime::DrawControlsTab  "Colorblind-friendly"
+left to display time (single word, RepoRPG.RpgRuntime::SectionWithReset#2): RpgRuntime::DrawControlsTab  "AUDIO"
+left to display time (single word, RepoRPG.RpgRuntime::SectionWithReset#2): RpgRuntime::DrawControlsTab  "GAMEPLAY"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "ASK BEFORE SALVAGE"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#1): RpgRuntime::DrawControlsTab  "RARE+"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "ASK BEFORE SALVAGE"
+left to display time (single word, RepoRPG.RpgRuntime::CtlCat#0): RpgRuntime::DrawControlsTab  "Notifications"
+left to display time (single word, RepoRPG.RpgRuntime::SectionWithReset#2): RpgRuntime::DrawControlsTab  "NOTIFICATIONS"
+left to display time (single word, RepoRPG.RpgRuntime::ToggleW#0): RpgRuntime::DrawControlsTab  "Notifications"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "DURATION"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "MAX SHOWN"
+left to display time (single word, RepoRPG.RpgRuntime::Toggle#1): RpgRuntime::DrawControlsTab  "Notifications"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "DURATION"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "MAX SHOWN"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "FEEDBACK"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#1): RpgRuntime::DrawControlsTab  "DETAILED"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "BIG HEAL"
+left to display time (single word, RepoRPG.RpgRuntime::FlowLabel#1): RpgRuntime::DrawControlsTab  "HEALING"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "FEEDBACK"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "BIG HEAL"
+left to display time (single word, RepoRPG.RpgRuntime::SectionHeader#1): RpgRuntime::DrawControlsTab  "CONTROLLER"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawControlsTab  "MENU BUTTON HOLD TIME"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#1): RpgRuntime::DrawControlsTab  "INSTANT"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawControlsTab  "MENU BUTTON HOLD TIME"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroup#2): RpgRuntime::DrawControlsTab  "INSTANT"
+left to display time (single word, stelem.ref): RpgRuntime::DrawHostSettings  "off"
+left to display time (single word, stelem.ref): RpgRuntime::DrawHostSettings  "on"
+left to display time (single word, stloc.2): RpgRuntime::DrawHostSettings  "off"
+left to display time (single word, stloc.2): RpgRuntime::DrawHostSettings  "on"
+left to display time (single word, ret): RpgRuntime::KeyName  "UNBOUND"
+kept, used as id (System.String::op_Equality): RpgRuntime::PadButtons  "right"
+kept, used as id (System.String::op_Equality): RpgRuntime::PadButtons  "left"
+left to display time (single word, stloc.s): RpgRuntime::PadButtons  "VIEW"
+left to display time (single word, stloc.s): RpgRuntime::PadButtons  "MENU"
+left to display time (single word, stloc.s): RpgRuntime::PadButtons  "L-STICK"
+left to display time (single word, stloc.s): RpgRuntime::PadButtons  "R-STICK"
+left to display time (single word, stelem.ref): RpgRuntime::DescribeHeads  "none"
+left to display time (single word, stelem.ref): RpgRuntime::DeathState  "off"
+left to display time (single word, stelem.ref): RpgRuntime::DeathState  "on"
+left to display time (single word, stelem.ref): RpgRuntime::DeathState  "none"
+kept, log/network (RepoRPG.RpgRuntime::DebugLog): RpgRuntime::DrawDebugTab  "gear"
+kept, used as id (RepoRPG.Scrap::Tell): RpgRuntime::DrawDebugTab  "Debug"
+left to display time (single word, stelem.ref): RpgRuntime::DrawDebugDeaths  "monster"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawDebugFeatures>g__Say|1740_1#0): RpgRuntime::DrawDebugFeatures  "boss"
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::HeldWeapon  "grabbed"
+kept, used as id (RepoRPG.Gear::RollExact): RpgRuntime::DebugGiveElementAffix  "weapon"
+left to display time (single word, RepoRPG.RpgRuntime::SectionHeader#1): RpgRuntime::DrawGearTab  "EQUIPPED"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::DrawGearTab  "Equip"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::DrawGearTab  "Unequip"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawPaperDoll  "core"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawPaperDoll  "servos"
+kept, used as id (System.String::op_Inequality): RpgRuntime::DrawPaperDoll  "plating"
+kept, used as id (System.String::op_Inequality): RpgRuntime::DrawPaperDoll  "weapon"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawPaperDoll  "plating"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawPaperDoll  "servos"
+left to display time (single word, RepoRPG.RpgRuntime::SecondaryAction#1): RpgRuntime::DrawPaperDoll  "Unequip"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawSemibot>g__Of|1824_0#0): RpgRuntime::DrawSemibot  "plating"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawSemibot>g__Of|1824_0#0): RpgRuntime::DrawSemibot  "plating"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawSemibot>g__Of|1824_0#0): RpgRuntime::DrawSemibot  "core"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawSemibot>g__Of|1824_0#0): RpgRuntime::DrawSemibot  "weapon"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawSemibot>g__Of|1824_0#0): RpgRuntime::DrawSemibot  "servos"
+left to display time (single word, RepoRPG.RpgRuntime::<DrawSemibot>g__Of|1824_0#0): RpgRuntime::DrawSemibot  "servos"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawGearGrid  "crate"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawGearGrid  "crate"
+left to display time (single word, RepoRPG.RpgRuntime::SecondaryAction#1): RpgRuntime::DrawGearGrid  "Equip"
+left to display time (single word, RepoRPG.RpgRuntime::SecondaryAction#1): RpgRuntime::DrawGearGrid  "Unequip"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::GearDetail  "Starter"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::GearDetail  "Equip"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::GearDetail  "Unequip"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::GearDetail  "Salvaging..."
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::GearDetail  "Craft"
+kept, used as id (System.Array::IndexOf): RpgRuntime::OpenHelpFor  "Guide"
+kept, used as id (System.String::op_Inequality): RpgRuntime::OpenHelpFor  "Guide"
+kept, used as id (System.Array::IndexOf): RpgRuntime::MaybeShowGuide  "Guide"
+kept, used as id (System.Array::IndexOf): RpgRuntime::FinishGuide  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::SearchTarget  "Guide"
+kept, used as id (System.String::op_Equality): RpgRuntime::SearchTarget  "Perks"
+left to display time (single word, stfld): RpgRuntime::GuideDetail  "Guide"
+kept, used as id (System.String::op_Inequality): RpgRuntime::GuideDetail  "Guide"
+kept, used as id (System.Array::IndexOf): RpgRuntime::DrawGuideItems  "Class"
+left to display time (single word, RepoRPG.RpgRuntime::Add#1): RpgRuntime::AddDynamic  "RARITIES"
+left to display time (single word, stelem.ref): RpgRuntime::AddDynamic  "personal"
+left to display time (single word, stelem.ref): RpgRuntime::AddDynamic  "rival"
+left to display time (single word, stelem.ref): RpgRuntime::AddDynamic  "class"
+kept, used as id (System.String::op_Equality): RpgRuntime::AddDynamic  "personal"
+kept, used as id (System.String::op_Equality): RpgRuntime::AddDynamic  "rival"
+kept, used as id (System.String::op_Equality): RpgRuntime::AddDynamic  "class"
+kept, used as id (System.String::op_Equality): RpgRuntime::AddDynamic  "rival"
+left to display time (single word, RepoRPG.RpgRuntime::Add#1): RpgRuntime::AddDynamic  "CHAINS"
+left to display time (single word, RepoRPG.RpgRuntime::Add#1): RpgRuntime::AddControls  "PLAYING"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#0): RpgRuntime::AddControls  "Select"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#0): RpgRuntime::AddControls  "Back"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#0): RpgRuntime::AddControls  "Action"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#0): RpgRuntime::AddControls  "Apply"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#0): RpgRuntime::AddControls  "Reset"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#0): RpgRuntime::AddControls  "Undo"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#0): RpgRuntime::AddControls  "Salvage"
+left to display time (single word, RepoRPG.RpgRuntime::<AddControls>g__Row|1876_2#2): RpgRuntime::AddControls  "R-STICK"
+left to display time (single word, stloc.s): RpgRuntime::CfgValue  "off"
+left to display time (single word, stloc.s): RpgRuntime::CfgValue  "on"
+kept, used as id (System.String::op_Equality): RpgRuntime::KeyToken  "salvage"
+left to display time (single word, stloc.s): RpgRuntime::KeyToken  "unbound"
+left to display time (single word, RepoRPG.RpgRuntime::PopupHeal#0): RpgRuntime::NoteHeal  "revive"
+left to display time (single word, RepoRPG.RpgRuntime::PopupHeal#2): RpgRuntime::NoteHeal  "Revived"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BuildHudCard  "ROUTE"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BuildHudCard  "SYN"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BuildHudCard  "XP+"
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::RunStatusChips  "off"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::RunStatusChips  "FINALE"
+kept, used as id (System.String::op_Equality): RpgRuntime::KeyGlyph  "left"
+kept, used as id (System.String::op_Equality): RpgRuntime::KeyGlyph  "right"
+left to display time (single word, stloc.s): RpgRuntime::KeyGlyph  "D-UP"
+left to display time (single word, stloc.s): RpgRuntime::KeyGlyph  "D-DOWN"
+left to display time (single word, stloc.s): RpgRuntime::KeyGlyph  "D-LEFT"
+left to display time (single word, stloc.s): RpgRuntime::KeyGlyph  "D-RIGHT"
+left to display time (single word, stfld): RpgRuntime::AddKey  "unbound"
+left to display time (single word, stfld): RpgRuntime::BuildHudKeys  "OFF"
+left to display time (single word, stfld): RpgRuntime::BuildHudKeys  "ON"
+left to display time (single word, RepoRPG.RpgRuntime::AddKey#3): RpgRuntime::BuildHudKeys  "Hum"
+left to display time (single word, stfld): RpgRuntime::BuildHudKeys  "humming"
+left to display time (single word, stfld): RpgRuntime::BuildHudKeys  "throwing"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawHudKeys  "OFF"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawHudSettings  "HUD CARD"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawHudSettings  "HUD SIZE"
+kept, used as id (RepoRPG.RpgRuntime::HudChoice): RpgRuntime::DrawHudSettings  "HUD CARD"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawHudSettings  "HUD SIZE"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawHudSettings  "CLASS LINES"
+left to display time (single word, stloc.s): RpgRuntime::DrawHudSettings  "NEVER"
+left to display time (single word, stloc.s): RpgRuntime::DrawHudSettings  "ALWAYS"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawHudSettings  "RUN STATUS"
+kept, used as id (RepoRPG.RpgRuntime::HudChoice): RpgRuntime::DrawHudSettings  "CLASS LINES"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawHudSettings  "RUN STATUS"
+left to display time (single word, System.ValueTuple`3::.ctor#0): RpgRuntime::DrawHudSettings  "Contracts"
+left to display time (single word, System.ValueTuple`3::.ctor#0): RpgRuntime::DrawHudSettings  "Perks"
+left to display time (single word, System.ValueTuple`3::.ctor#0): RpgRuntime::DrawHudSettings  "Research"
+left to display time (single word, System.ValueTuple`3::.ctor#0): RpgRuntime::DrawHudSettings  "Other"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawHudSettings  "HEALING POP-UPS"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#1): RpgRuntime::DrawHudSettings  "DETAILED"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawHudSettings  "HEALING POP-UPS"
+left to display time (single word, RepoRPG.RpgRuntime::Chip#3): RpgRuntime::DrawHudPresetRow  "Custom"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawHudPreview  "Every row is hidden: no card."
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawHudPreview  "Nothing to show yet: pick a class."
+scoped entry ignored, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawHudPreview  "The card is hidden here (HUD card: "
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawHudPreview  "The HUD is off (Show HUD)."
+left to display time (single word, RepoRPG.RpgRuntime::SectionWithReset#2): RpgRuntime::DrawInWorldSettings  "IN-WORLD"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawPanelSettings  "CONTRACTS PANEL"
+kept, used as id (RepoRPG.RpgRuntime::HudChoice): RpgRuntime::DrawPanelSettings  "CONTRACTS PANEL"
+left to display time (single word, stelem.ref): RpgRuntime::HudHold  "none"
+left to display time (single word, ret): RpgRuntime::ConfirmGlyph  "CLICK"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawSlotIcon  "weapon"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawSlotIcon  "plating"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawSlotIcon  "servos"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawSlotIcon  "core"
+scoped entry ignored, used as id (local -> System.String::op_Inequality): RpgRuntime::TickMarketReport  "In demand: "
+left to display time (single word, stloc.s): RpgRuntime::BuildMarketText  "normal"
+kept, used as id (System.String::StartsWith): RpgRuntime::DemandName  "gear"
+left to display time (single word, ret): RpgRuntime::DemandName  "Uniques"
+kept, used as id (System.String::op_Equality): RpgRuntime::DemandName  "module"
+left to display time (single word, ret): RpgRuntime::DemandName  "Modules"
+kept, used as id (System.String::op_Equality): RpgRuntime::DemandName  "crate"
+kept, used as id (System.String::op_Equality): RpgRuntime::DemandName  "premium"
+kept, log/network (RepoRPG.RpgRuntime::ForceCloseMenu): RpgRuntime::WatchLevelEnd  "the level is ending"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Votes"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "boon"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Votes"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "boon"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Votes"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "heat"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Votes"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "route"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Votes"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "team"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "class"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Class"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "class"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Votes"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "milestone"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "reward"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Contracts"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "reward"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "perk"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Perks"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "perk"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Class"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Attributes"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "SWITCH"
+left to display time (single word, stfld): RpgRuntime::ProvideNotices  "Class"
+left to display time (single word, stfld): RpgRuntime::BuildNoticeRows  "REMINDERS"
+kept, used as id (System.String::op_Equality): RpgRuntime::FocusNotice  "Votes"
+kept, used as id (System.String::op_Equality): RpgRuntime::FocusNotice  "Perks"
+kept, used as id (System.String::op_Equality): RpgRuntime::FocusNotice  "Contracts"
+kept, used as id (System.String::op_Equality): RpgRuntime::HandlePad  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::HandlePad  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::HandlePad  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::HandlePad  "Perks"
+kept, used as id (System.String::op_Equality): RpgRuntime::HandlePad  "Guide"
+kept, used as id (RepoRPG.Pad::Held): RpgRuntime::HandlePad  "left"
+kept, used as id (RepoRPG.Pad::Held): RpgRuntime::HandlePad  "right"
+kept, used as id (System.String::op_Equality): RpgRuntime::SwitchTabTo  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::SwitchTabTo  "Contracts"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Select"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Cancel"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Select"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Confirm"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Back"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Action"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Apply"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Reset"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Undo"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuildPrompts  "Class"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Effects"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Trees"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Effects"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuildPrompts  "Guide"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Done"
+left to display time (single word, stelem.ref): RpgRuntime::BuildPrompts  "DOWN"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Clear"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Search"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuildPrompts  "Guide"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Search"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Cancel"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::BuildPrompts  "Cancel"
+kept, used as id (System.String::op_Equality): RpgRuntime::GlyphColor  "CROSS"
+kept, used as id (System.String::op_Equality): RpgRuntime::GlyphColor  "CIRCLE"
+kept, used as id (System.String::op_Equality): RpgRuntime::GlyphColor  "SQUARE"
+kept, used as id (System.String::op_Equality): RpgRuntime::GlyphColor  "TRIANGLE"
+kept, used as id (System.String::op_Equality): RpgRuntime::PadLabel  "right"
+kept, used as id (System.String::op_Equality): RpgRuntime::PadLabel  "left"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "CROSS"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "CIRCLE"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "SQUARE"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "TRIANGLE"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "VIEW"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "MENU"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "L-STICK"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "R-STICK"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "D-PAD"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "D-PAD"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "D-PAD"
+left to display time (single word, stloc.s): RpgRuntime::PadLabel  "D-PAD"
+left to display time (single word, stloc.0): RpgRuntime::KeyLabel  "SPACE"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabHasPending  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabHasPending  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabHasPending  "Perks"
+kept, used as id (System.String::op_Equality): RpgRuntime::ConfirmTab  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::ConfirmTab  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::ConfirmTab  "Perks"
+kept, used as id (System.String::op_Equality): RpgRuntime::ResetTab  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::ResetTab  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::ResetTab  "Perks"
+left to display time (the mod tests texts with StartsWith("Taken by") in RpgRuntime::DrawClassHeader): RpgRuntime::AskPlayAs  "Taken by "
+left to display time (single word, stelem.ref): RpgRuntime::RequestClass  "off"
+left to display time (single word, stelem.ref): RpgRuntime::RequestClass  "on"
+left to display time (the mod tests texts with StartsWith("Taken by") in RpgRuntime::DrawClassHeader): RpgRuntime::RequestClass  "Taken by "
+left to display time (the mod tests texts with StartsWith("Taken by") in RpgRuntime::DrawClassHeader): RpgRuntime::RequestClass  "Taken by "
+left to display time (single word, stelem.ref): RpgRuntime::TakeClass  "none"
+kept, log/network (RepoRPG.RpgRuntime::ClassTrace): RpgRuntime::OnCommitResult  "none"
+left to display time (the mod tests texts with StartsWith("Taken by") in RpgRuntime::DrawClassHeader): RpgRuntime::OnCommitResult  "Taken by "
+left to display time (single word, RepoRPG.RpgRuntime::SectionWithReset#2): RpgRuntime::DrawPerfSettings  "PERFORMANCE"
+left to display time (single word, RepoRPG.RpgRuntime::Chip#3): RpgRuntime::DrawPerfSettings  "Custom"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawPerfSettings  "ELEMENT VISUALS"
+left to display time (single word, RepoRPG.RpgRuntime::ValueGroupW#1): RpgRuntime::DrawPerfSettings  "REDUCED"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawPerfSettings  "NAMEPLATE RANGE"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawPerfSettings  "HEALTH BAR RANGE"
+left to display time (also used as id, RepoRPG.RpgRuntime::ValueGroupW#0): RpgRuntime::DrawPerfSettings  "FLOOR RINGS"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawPerfSettings  "ELEMENT VISUALS"
+kept, used as id (RepoRPG.RpgRuntime::PerfStep): RpgRuntime::DrawPerfSettings  "NAMEPLATE RANGE"
+kept, used as id (RepoRPG.RpgRuntime::PerfStep): RpgRuntime::DrawPerfSettings  "HEALTH BAR RANGE"
+kept, used as id (RepoRPG.RpgRuntime::ValueGroup): RpgRuntime::DrawPerfSettings  "FLOOR RINGS"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawPerksTab  "perk"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillPerkDetail  "Evolved"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillPerkDetail  "Off"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillPerkDetail  "Owned"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::FillPerkDetail  "Banished"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::FillPerkDetail  "Select"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::FillPerkDetail  "Unselect"
+left to display time (the mod tests texts with Contains("pick waiting") in RpgRuntime::TakeReward): RpgRuntime::DrawPerkPicks  "No perk pick waiting."
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawOwnedPerks  "crate"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawAllPerks  "crate"
+left to display time (single word, stloc.s): RpgRuntime::DrawPerkGrid  "Banished"
+left to display time (single word, stloc.s): RpgRuntime::DrawPerkGrid  "Owned"
+left to display time (single word, stloc.s): RpgRuntime::DrawPerkGrid  "Off"
+left to display time (single word, stloc.s): RpgRuntime::DrawPerkGrid  "Evolved"
+kept, used as id (System.String::op_Equality): RpgRuntime::XpLabel  "kill"
+kept, used as id (System.String::op_Equality): RpgRuntime::XpLabel  "revive"
+kept, used as id (System.String::op_Equality): RpgRuntime::XpLabel  "extraction"
+kept, used as id (System.String::op_Equality): RpgRuntime::XpLabel  "level complete"
+kept, used as id (System.String::op_Equality): RpgRuntime::XpLabel  "contract"
+kept, used as id (System.String::op_Equality): RpgRuntime::XpLabel  "salvage"
+kept, used as id (System.String::op_Equality): RpgRuntime::XpLabel  "upgrade"
+left to display time (also used as id, System.ValueTuple`2::.ctor#0): RpgRuntime::XpLabel  "Salvaged gear"
+left to display time (also used as id, System.ValueTuple`2::.ctor#1): RpgRuntime::XpLabel  "Salvaged gear"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::XpLabel  "Debug"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::XpLabel  "Debug"
+kept, used as id (System.String::StartsWith): RpgRuntime::Notify  "research"
+kept, used as id (local -> System.Array::IndexOf): RpgRuntime::RestoreTabMemory  "Guide"
+kept, used as id (System.String::op_Inequality): RpgRuntime::RestoreTabMemory  "Debug"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::SaveTabMemory  "Class"
+kept, used as id (System.String::op_Inequality): RpgRuntime::UndoLast  "Class"
+kept, used as id (System.String::op_Inequality): RpgRuntime::UndoLast  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::UndoLast  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::UndoLast  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::CanUndo  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::CanUndo  "Attributes"
+left to display time (also used as id, ret): RpgRuntime::ShopReason  "Shop closed - it opens between levels"
+kept, used as id (RepoRPG.RpgRuntime::Notify): RpgRuntime::OnResearchFinished  "research"
+kept, log/network (local -> BepInEx.Logging.ManualLogSource::LogInfo): RpgRuntime::ResearchLevelEndLine  "Level research: +{0:0} Data ({1} now)"
+kept, log/network (local -> BepInEx.Logging.ManualLogSource::LogInfo): RpgRuntime::ResearchLevelEndLine  " · {0} sample{1} left behind"
+left to display time (single word, stfld): RpgRuntime::ProvideResearchNotices  "Research"
+left to display time (single word, stfld): RpgRuntime::ProvideResearchNotices  "research"
+left to display time (single word, stfld): RpgRuntime::ProvideResearchNotices  "RESEARCH"
+left to display time (single word, stfld): RpgRuntime::ProvideResearchNotices  "DATA"
+left to display time (single word, stfld): RpgRuntime::ProvideResearchNotices  "Research"
+left to display time (single word, stfld): RpgRuntime::ProvideResearchNotices  "research"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawResearchTab  "crate"
+left to display time (single word, stloc.s): RpgRuntime::DrawResearchNode  "DONE"
+left to display time (single word, stloc.s): RpgRuntime::DrawResearchNode  "SOON"
+left to display time (single word, stloc.s): RpgRuntime::DrawResearchNode  "LOCKED"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawResearchNode  "research"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::ResearchDetail  "Done"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::ResearchDetail  "Lobby-wide"
+kept, used as id (System.String::op_Equality): RpgRuntime::ChoosingClass  "Class"
+left to display time (single word, stfld): RpgRuntime::BuildRosterLines  "Choosing..."
+left to display time (single word, System.Collections.Generic.List`1::Add#0): RpgRuntime::BuildTeamLines  "DOWN"
+left to display time (single word, stfld): RpgRuntime::BuildTeamLines  "Choosing..."
+kept, used as id (System.String::op_Equality): RpgRuntime::TabLabel  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabLabel  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabLabel  "Perks"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRpgTab  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRpgTab  "Perks"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRpgTab  "Votes"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRpgTab  "Guide"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRpgTab  "Debug"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRpgTab  "Contracts"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawRpgTab  "Research"
+left to display time (single word, ret): RpgRuntime::RespecLabel  "Respec"
+left to display time (the mod tests texts with Contains("pick waiting") in RpgRuntime::TakeReward): RpgRuntime::DrawShopContent  "No perk pick waiting - you get one at class level milestones"
+left to display time (single word, stelem.ref): RpgRuntime::BuildRpgHudLines  "upgrade"
+left to display time (single word, RepoRPG.Account::Record#0): RpgRuntime::OnRunShape  "heat"
+kept, used as id (System.String::op_Equality): RpgRuntime::ShowRunNote  "milestone"
+kept, used as id (System.String::op_Equality): RpgRuntime::ShowRunNote  "heat"
+kept, used as id (RepoRPG.RpgRuntime::Notify): RpgRuntime::ShowRunNote  "heat"
+left to display time (also used as id, RepoRPG.RpgRuntime::GiveXp#2): RpgRuntime::ShowRunNote  "Full Sweep"
+kept, used as id (RepoRPG.RpgRuntime::WaitingFor): RpgRuntime::DrawRunShapePanel  "boon"
+kept, used as id (RepoRPG.Notices::ActedOn): RpgRuntime::DrawRunShapePanel  "boon"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawRunShapePanel  "milestone"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawRunShapePanel  "boon"
+kept, used as id (RepoRPG.RpgRuntime::WaitingFor): RpgRuntime::DrawRoutePanel  "route"
+kept, used as id (RepoRPG.Notices::ActedOn): RpgRuntime::DrawRoutePanel  "route"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawRoutePanel  "route"
+kept, used as id (RepoRPG.RpgRuntime::WaitingFor): RpgRuntime::DrawHeatPanel  "heat"
+kept, used as id (RepoRPG.Notices::ActedOn): RpgRuntime::DrawHeatPanel  "heat"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawHeatPanel  "heat"
+left to display time (the mod tests texts with Contains("Chapter ") in RpgRuntime::RunStatusChips): RpgRuntime::RunShapeBanner  "Chapter {0}"
+left to display time (single word, System.Collections.Generic.List`1::Add#0): RpgRuntime::RunShapeBanner  "Endless"
+left to display time (the mod tests texts with StartsWith("Next level:") in RpgRuntime::RunDetailsText): RpgRuntime::RunShapeBanner  "Next level: "
+left to display time (the mod tests texts with StartsWith("Next level:") in RpgRuntime::RunDetailsText): RpgRuntime::RunShapeBanner  "Next level: "
+kept, used as id (System.String::Contains): RpgRuntime::DifficultyName  "Custom"
+left to display time (single word, ret): RpgRuntime::DifficultyName  "Custom"
+left to display time (single word, ret): RpgRuntime::DifficultyName  "Custom"
+scoped entry ignored, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawRunsPage  "<b>THIS RUN</b>\n"
+left to display time (single word, System.ValueTuple`2::.ctor#0): RpgRuntime::BuildRecordsText  "heat"
+scoped entry ignored, used as id (local -> System.String::StartsWith): RpgRuntime::RunDetailsText  "<color=#9a9ca0>Next level:</color> "
+left to display time (the mod tests texts with Contains("Chapter ") in RpgRuntime::RunStatusChips): RpgRuntime::TickRunSummary  "Chapter {0}"
+left to display time (single word, ret): RpgRuntime::ScanTag  "LOW"
+left to display time (single word, ret): RpgRuntime::ScanTag  "MID"
+left to display time (single word, ret): RpgRuntime::ScanTag  "HIGH"
+left to display time (single word, ret): RpgRuntime::ScanTag  "TOP"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabHasSearch  "Guide"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "TEXT SIZE"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "HUD SIZE"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "LIST"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "CLASS TAB"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "RUN STATUS"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "AUTO-HIDE"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "ASK BEFORE SALVAGE"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "DURATION"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "MAX SHOWN"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "FEEDBACK"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "BIG HEAL"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "MENU BUTTON HOLD TIME"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "ELEMENT VISUALS"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "NAMEPLATE RANGE"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "HEALTH BAR RANGE"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "FLOOR RINGS"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "HUD CARD"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "CLASS LINES"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "CONTRACTS PANEL"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::SettingByLabel  "HEALING POP-UPS"
+left to display time (single word, stloc.s): RpgRuntime::FmtSetting  "Off"
+left to display time (single word, stloc.s): RpgRuntime::FmtSetting  "On"
+left to display time (single word, stloc.s): RpgRuntime::FmtSetting  "Unbound"
+left to display time (single word, RepoRPG.RpgRuntime::Chip#3): RpgRuntime::SettingRowFrame  "Changed"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::SettingsDetail  "Default"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::SettingsActionBar  "Save"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::SettingsActionBar  "Undo"
+kept, used as id (System.String::op_Equality): RpgRuntime::SectionEntries  "gear"
+kept, used as id (System.String::op_Equality): RpgRuntime::SectionEntries  "module"
+left to display time (single word, stelem.ref): RpgRuntime::DrawShopTabBody  "max"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawShopTabBody  "crate"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawShopTabBody  "crate"
+kept, used as id (System.String::op_Equality): RpgRuntime::ShopEntryDetail  "gear"
+kept, used as id (System.String::op_Equality): RpgRuntime::ShopEntryDetail  "module"
+left to display time (single word, stfld): RpgRuntime::ShopEntryDetail  "Consumable"
+left to display time (single word, stfld): RpgRuntime::ShopEntryDetail  "Module"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::ShopEntryDetail  "Sold"
+kept, used as id (System.String::op_Equality): RpgRuntime::ShopEntryDetail  "gear"
+left to display time (single word, RepoRPG.DetailInfo::Act#0): RpgRuntime::ShopEntryDetail  "Sold"
+kept, used as id (System.String::op_Equality): RpgRuntime::EntryLook  "gear"
+kept, used as id (System.String::op_Equality): RpgRuntime::EntryLook  "module"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawShopGrid  "<color=#7fd8ff>LOCKED</color>  "
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawShopGrid  "<color=#9a9ca0>SOLD</color>"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawShopBuyback  "crate"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Choose"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "View"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Change"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Vote"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "route"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Change"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Vote"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Dismiss"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "heat"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Change"
+left to display time (single word, stfld): RpgRuntime::BuildVoteRows  "Vote"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawShopVoteStrip  "milestone"
+kept, used as id (RepoRPG.RpgRuntime::NoticeHighlight): RpgRuntime::DrawShopVoteStrip  "boon"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawShopVoteView  "route"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawShopVoteView  "heat"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawShopVoteView  "drill"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawShopVoteView  "sponsor"
+kept, used as id (System.String::op_Equality): RpgRuntime::OpenShopVoteFor  "route"
+kept, used as id (System.String::op_Equality): RpgRuntime::OpenShopVoteFor  "heat"
+kept, used as id (System.String::op_Equality): RpgRuntime::OpenShopVoteFor  "boon"
+kept, used as id (System.String::op_Equality): RpgRuntime::OpenShopVoteFor  "milestone"
+left to display time (single word, stloc.0): RpgRuntime::OpenShopVoteFor  "route"
+left to display time (single word, stloc.0): RpgRuntime::OpenShopVoteFor  "heat"
+left to display time (single word, stelem.ref): RpgRuntime::DrawTalentEffects  "Perks"
+left to display time (single word, stelem.ref): RpgRuntime::DrawTalentEffects  "Attributes"
+left to display time (single word, stelem.ref): RpgRuntime::DrawTeamHealth  "on"
+left to display time (single word, stelem.ref): RpgRuntime::DrawTeamHealth  "off"
+left to display time (single word, stelem.ref): RpgRuntime::DrawTeamHealth  "on"
+kept, used as id (System.String::op_Equality): RpgRuntime::InIcon  "monster"
+kept, used as id (System.String::op_Equality): RpgRuntime::InIcon  "loot"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "Available"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "Pending"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "Selected"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "Locked"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "Maxed"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "Equipped"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "New"
+left to display time (single word, stloc.0): RpgRuntime::StatusName  "Cursed"
+left to display time (single word, RepoRPG.RpgRuntime::set_LayoutCheckSummary#0): RpgRuntime::StartLayoutCheck  "Running..."
+left to display time (single word, RepoRPG.RpgRuntime::GroupOf#0): RpgRuntime::SwitchMain  "Class"
+left to display time (single word, RepoRPG.RpgRuntime::GroupOf#0): RpgRuntime::SwitchSub  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabBadge  "Class"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabBadge  "Attributes"
+kept, used as id (System.String::op_Equality): RpgRuntime::TabNew  "Contracts"
+kept, used as id (RepoRPG.RpgRuntime::OpenHelpFor): RpgRuntime::DrawNavBars  "Class"
+left to display time (single word, RepoRPG.RpgRuntime::GroupOf#0): RpgRuntime::DrawNavBars  "Class"
+left to display time (single word, stfld): RpgRuntime::RefreshContextBar  "Loading..."
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::RefreshContextBar  "Class"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::RefreshContextBar  "Attributes"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::RefreshContextBar  "Research"
+left to display time (single word, RepoRPG.RpgRuntime::CtxJump#1): RpgRuntime::DrawContextBar  "Class"
+kept, used as id (RepoRPG.RpgRuntime::EmptyState): RpgRuntime::DrawDetailPanel  "crate"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::PendingActs  "Undo"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::PendingActs  "Reset"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::PendingActs  "Confirm"
+left to display time (single word, RepoRPG.RpgRuntime::BarAct#0): RpgRuntime::PendingActs  "Applying..."
+kept, used as id (System.String::op_Equality): RpgRuntime::VoteIdFor  "route"
+kept, used as id (System.String::op_Equality): RpgRuntime::VoteIdFor  "drill"
+kept, used as id (System.String::op_Equality): RpgRuntime::VoteIdFor  "heat"
+kept, used as id (System.String::op_Equality): RpgRuntime::VoteIdFor  "boon"
+kept, used as id (System.String::op_Equality): RpgRuntime::VoteIdFor  "team"
+kept, used as id (System.String::op_Equality): RpgRuntime::VoteIdFor  "milestone"
+kept, used as id (System.String::op_Equality): RpgRuntime::VoteIdFor  "sponsor"
+left to display time (single word, stloc.0): RpgRuntime::VoteIdFor  "route"
+left to display time (single word, stloc.0): RpgRuntime::VoteIdFor  "heat"
+left to display time (single word, stloc.0): RpgRuntime::VoteIdFor  "milestone"
+left to display time (single word, stloc.0): RpgRuntime::VoteIdFor  "drill"
+left to display time (single word, stloc.0): RpgRuntime::VoteIdFor  "sponsor"
+left to display time (single word, stloc.0): RpgRuntime::VoteIdFor  "team"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "team"
+left to display time (also used as id, stfld): RpgRuntime::BuildVoteCards  "Team contract"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "team"
+left to display time (single word, RepoRPG.RpgRuntime::NewOpt#1): RpgRuntime::BuildVoteCards  "Accept"
+left to display time (single word, RepoRPG.RpgRuntime::NewOpt#1): RpgRuntime::BuildVoteCards  "Decline"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "milestone"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "loot"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "milestone"
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::BuildVoteCards  "Waiting for the host."
+kept, used as id (local -> System.String::op_Equality): RpgRuntime::BuildVoteCards  "Pick it in the truck or the shop."
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "boon"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "route"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "route"
+left to display time (single word, stloc.s): RpgRuntime::BuildVoteCards  "Expedition"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "heat"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "monster"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "heat"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "drill"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "drill"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "sponsor"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "loot"
+left to display time (single word, stfld): RpgRuntime::BuildVoteCards  "sponsor"
+kept, used as id (System.String::op_Equality): RpgRuntime::CastVote  "team"
+kept, used as id (System.String::op_Equality): RpgRuntime::CastVote  "heat"
+kept, used as id (System.String::op_Equality): RpgRuntime::CastVote  "milestone"
+kept, used as id (System.String::op_Equality): RpgRuntime::CastVote  "route"
+kept, used as id (System.String::op_Equality): RpgRuntime::CastVote  "drill"
+kept, used as id (System.String::op_Equality): RpgRuntime::CastVote  "sponsor"
+kept, used as id (RepoRPG.Notices::ActedOn): RpgRuntime::CastVote  "boon"
+kept, used as id (RepoRPG.Notices::ActedOn): RpgRuntime::CastVote  "route"
+kept, used as id (RepoRPG.Notices::ActedOn): RpgRuntime::CastVote  "heat"
+left to display time (single word, RepoRPG.RpgRuntime::NoteVoteResult#0): RpgRuntime::NoteTeamResult  "declined"
+left to display time (single word, RepoRPG.RpgRuntime::NoteVoteResult#0): RpgRuntime::NoteTeamResult  "accepted"
+left to display time (single word, ret): RpgRuntime::RouteShort  "Expedition"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawVoteCard  "Your vote is needed"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawVoteCard  "Waiting for you"
+kept, used as id (local -> System.String::op_Inequality): RpgRuntime::DrawVoteOption  "YOUR VOTE"
+left to display time (the mod tests texts with StartsWith("waiting") in ClassHost::Category): RpgRuntime::DrawVoterIcons  "waiting:"
+left to display time (the mod tests texts with StartsWith("waiting") in ClassHost::Category): RpgRuntime::DrawVoterIcons  "waiting:"
+left to display time (single word, stfld): RpgRuntime::VtFill  "Decided"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::VtFill  "Result"
+left to display time (single word, stfld): RpgRuntime::VtFill  "RULES"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::VtFill  "Chosen"
+left to display time (also used as id, System.ValueTuple`2::.ctor#1): RpgRuntime::VtFill  "Waiting for you"
+left to display time (single word, stfld): RpgRuntime::VtFill  "RULES"
+left to display time (single word, stfld): RpgRuntime::.ctor  "Buy"
+left to display time (single word, stfld): RpgRuntime::.ctor  "Apply"
+left to display time (single word, stfld): RpgRuntime::.ctor  "Presets"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Overclock"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Resupply"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::.cctor  "Changed"
+left to display time (single word, System.ValueTuple`2::.ctor#1): RpgRuntime::.cctor  "Pending"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Uniques"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "New"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Cursed"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::.cctor  "weapon"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::.cctor  "plating"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::.cctor  "servos"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): RpgRuntime::.cctor  "core"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Owned"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Banished"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "All"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Class"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Attributes"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Perks"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Contracts"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Votes"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Research"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Guide"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Class"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Attributes"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Perks"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Contracts"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Votes"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Research"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Guide"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Debug"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Modules"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Research"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Action"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Confirm"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Confirm"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Buy"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Action"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Back"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Cancel"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Action"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Back"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Action"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Action"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Monster"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Notifications"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Class"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Attributes"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Perks"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Contracts"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Votes"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Research"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Guide"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Debug"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Votes"
+left to display time (single word, stelem.ref): RpgRuntime::.cctor  "Contracts"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Class"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Attributes"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Perks"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Contracts"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Votes"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Research"
+kept, used as id (System.Collections.Generic.HashSet`1::Add): RpgRuntime::.cctor  "Guide"
+left to display time (single word, ret): RpgRuntime::AddControls  "unbound"
+left to display time (single word, ret): RpgRuntime::AddControls  "unbound"
+left to display time (single word, RepoRPG.Game::Get#1): RpgRuntime::PerkOnHit  "grabbed"
+kept, used as id (System.String::op_Equality): RpgRuntime::ResearchRestockE  "gear"
+kept, used as id (System.String::op_Equality): RpgRuntime::ResearchRestockE  "gear"
+kept, used as id (System.Array::IndexOf): RpgRuntime::DrawMastery  "Class"
+kept, used as id (RepoRPG.RpgRuntime::TakeReward): RpgRuntime::DrawModulePick  "module"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawControlsTab  "Rare+"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawControlsTab  "All"
+kept, used as id (BepInEx.Configuration.ConfigEntry`1::set_Value): RpgRuntime::DrawControlsTab  "Rare+"
+kept, used as id (BepInEx.Configuration.ConfigEntry`1::set_Value): RpgRuntime::DrawControlsTab  "None"
+kept, used as id (BepInEx.Configuration.ConfigEntry`1::set_Value): RpgRuntime::DrawControlsTab  "All"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawControlsTab  "Rare+"
+kept, used as id (System.String::op_Equality): RpgRuntime::DrawControlsTab  "None"
+kept, used as id (BepInEx.Configuration.ConfigEntry`1::set_Value): RpgRuntime::DrawControlsTab  "Rare+"
+kept, used as id (BepInEx.Configuration.ConfigEntry`1::set_Value): RpgRuntime::DrawControlsTab  "All"
+kept, used as id (BepInEx.Configuration.ConfigEntry`1::set_Value): RpgRuntime::DrawControlsTab  "None"
+left to display time (the mod tests texts with StartsWith("gear") in RpgRuntime::DemandName): RpgRuntime::BuyGearCrate  "gear crate"
+left to display time (single word, RepoRPG.RpgRuntime::RollModuleDrop#1): RpgRuntime::BuyGearCrate  "crate"
+kept, used as id (RepoRPG.RpgRuntime::Buy): RpgRuntime::BuyGearReroll  "reroll"
+kept, used as id (RepoRPG.RpgRuntime::Buy): RpgRuntime::BuyGearReroll  "upgrade"
+left to display time (single word, RepoRPG.RpgRuntime::FindGear#1): RpgRuntime::BuyGearReroll  "refund"
+left to display time (single word, stelem.ref): RpgRuntime::BuyGearReroll  "Rerolled"
+left to display time (single word, stelem.ref): RpgRuntime::BuyGearReroll  "Upgraded"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuyEntry  "gear"
+left to display time (also used as id, RepoRPG.RpgRuntime::GiveGear#1): RpgRuntime::BuyEntry  "mod shop"
+kept, used as id (System.String::op_Equality): RpgRuntime::BuyEntry  "module"
+left to display time (also used as id, RepoRPG.RpgRuntime::AddModule#1): RpgRuntime::BuyEntry  "mod shop"
+left to display time (single word, RepoRPG.RpgRuntime::RollModuleDrop#1): RpgRuntime::BuyCrate  "crate"
+left to display time (single word, RepoRPG.RpgRuntime::GiveGear#1): RpgRuntime::BuyBack  "buyback"
+kept, log/network (RepoRPG.Net::SendHealNotice): RpgRuntime::HealAfter  "Revive"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::TickAttrHost  "Ghosting: monsters lost your trail"
+left to display time (the mod tests texts with StartsWith("waiting") in ClassHost::Category): ClassHost::FollowGoal  "waiting at extraction"
+left to display time (also used as id, RepoRPG.ClassHost::GoTo#3): ClassHost::FollowGoal  "making way"
+left to display time (also used as id, RepoRPG.ClassHost::GoTo#3): ClassHost::FollowGoal  "making way"
+left to display time (the mod tests texts with StartsWith("waiting") in ClassHost::Category): ClassHost::FollowGoal  "waiting (monster near)"
+kept, log/network (RepoRPG.ClassHost::DiagLog): ClassHost::SetCartFollow  "off"
+kept, log/network (RepoRPG.ClassHost::DiagLog): ClassHost::SetCartFollow  "on"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::SetCartFollow  "following"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::SetCartFollow  "follow off"
+kept, used as id (System.String::op_Equality): ClassHost::AtOpenExtraction  "Complete"
+kept, used as id (local -> System.String::op_Equality): ClassHost::CenterThroughOpenings  "No safe route (too tight for the cart)"
+kept, used as id (local -> System.String::op_Equality): ClassHost::CenterThroughOpenings  "Load too big for this route"
+left to display time (the mod tests texts with StartsWith("No safe route") in ClassHost::Category): ClassHost::EdgeSpotOn  "No safe route (a ledge on the way)"
+left to display time (the mod tests texts with StartsWith("No safe route") in ClassHost::Category): ClassHost::EdgeSpotOn  "No safe route (stairs or a steep slope on the way)"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::StartDrive  "No cart nearby"
+kept, used as id (local -> System.String::op_Equality): ClassHost::StartDrive  "Cart is being held - let go first"
+kept, used as id (local -> System.String::op_Equality): ClassHost::StartDrive  "No extraction point found"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::StartDrive  "No safe route"
+kept, used as id (System.String::op_Equality): ClassHost::PickExtraction  "Complete"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::ResetPilots  "level changed"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::StopPilot  "stopped"
+left to display time (single word, stloc.0): ClassHost::HudText  "idle"
+left to display time (also used as id, stloc.0): ClassHost::HudText  "parked - push it or walk up to it"
+left to display time (single word, stloc.0): ClassHost::HudText  "following"
+left to display time (single word, stloc.0): ClassHost::HudText  "overdrive"
+left to display time (single word, stloc.0): ClassHost::HudText  "stuck"
+kept, used as id (System.String::op_Equality): ClassHost::EndOverdrive  "arrived"
+kept, used as id (System.String::op_Equality): ClassHost::EndOverdrive  "grabbed"
+kept, used as id (System.String::op_Equality): ClassHost::EndOverdrive  "stopped"
+kept, used as id (System.String::op_Equality): ClassHost::EndOverdrive  "arrived"
+scoped entry ignored, log/network (RepoRPG.ClassHost::SetState): ClassHost::EndOverdrive  "Overdrive ended: "
+scoped entry ignored, used as id (RepoRPG.ClassHost::SetState): ClassHost::EndOverdrive  "overdrive ended ("
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::EndOverdrive  "parked at extraction"
+left to display time (single word, stelem.ref): ClassHost::CartLog  "none"
+left to display time (single word, stelem.ref): ClassHost::CartLog  "none"
+left to display time (the mod tests texts with StartsWith("No safe route") in ClassHost::Category): ClassHost::Plan  "No safe route (the cart isn't on walkable ground)"
+left to display time (the mod tests texts with StartsWith("No safe route") in ClassHost::Category): ClassHost::Plan  "No safe route to that spot"
+left to display time (also used as id, ret): ClassHost::Plan  "No safe route"
+left to display time (also used as id, ret): ClassHost::Plan  "No safe route"
+kept, used as id (local -> RepoRPG.ClassHost::ProbePlanRefused): ClassHost::Plan  "No safe route (too tight for the cart)"
+kept, used as id (local -> RepoRPG.ClassHost::ProbePlanRefused): ClassHost::Plan  "Load too big for this route"
+kept, used as id (RepoRPG.ClassHost::Halt): ClassHost::TickPilot  "waiting"
+left to display time (single word, RepoRPG.ClassHost::ProbeAbort#2): ClassHost::TickPilot  "grabbed"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::TickPilot  "grabbed"
+kept, log/network (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "grabbed"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::TickPilot  "time up"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::TickPilot  "caster down"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::TickPilot  "arrived"
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "waiting"
+kept, log/network (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "follow off"
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "follow off"
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "parked - push it or walk up to it"
+kept, log/network (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "too far"
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "waiting (too far)"
+kept, used as id (System.String::op_Equality): ClassHost::TickPilot  "making way"
+kept, used as id (RepoRPG.ClassHost::Halt): ClassHost::TickPilot  "following"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::TickPilot  "no route"
+kept, used as id (System.String::op_Inequality): ClassHost::TickPilot  "load too big for this route"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::TickPilot  "Load too big for this route"
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "no route"
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "load too big for this route"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::TickPilot  "Cart stuck"
+left to display time (single word, RepoRPG.ClassHost::ProbeAbort#2): ClassHost::TickPilot  "stuck"
+kept, used as id (RepoRPG.ClassHost::EndOverdrive): ClassHost::TickPilot  "stuck"
+kept, used as id (RepoRPG.ClassHost::SetState): ClassHost::TickPilot  "stuck"
+kept, used as id (local -> RepoRPG.ClassHost::StopWhy): ClassHost::ScanAhead  "ahead"
+kept, used as id (local -> RepoRPG.ClassHost::StopWhy): ClassHost::ScanAhead  "right"
+kept, used as id (local -> RepoRPG.ClassHost::StopWhy): ClassHost::ScanAhead  "left"
+kept, used as id (local -> System.String::op_Equality): ClassHost::RestorePhysics  "Locked"
+kept, used as id (System.String::op_Equality): ClassHost::RestorePhysics  "Locked"
+kept, used as id (RepoRPG.ClassHost::Halt): ClassHost::FallFailsafe  "recovered"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::FallFailsafe  "Your cart fell - brought it back with its load"
+kept, used as id (System.String::StartsWith): ClassHost::Category  "waiting"
+kept, used as id (System.String::StartsWith): ClassHost::Category  "No safe route"
+kept, used as id (System.String::StartsWith): ClassHost::Category  "no route"
+kept, used as id (System.String::StartsWith): ClassHost::Category  "stuck"
+left to display time (single word, stfld): ClassHost::ProbeTick  "overdrive"
+kept, used as id (RepoRPG.ClassHost::EndPassage): ClassHost::ProbeTick  "stopped"
+left to display time (single word, stelem.ref): ClassHost::ProbeStop  "overdrive"
+left to display time (single word, stfld): ClassHost::ProbePlanRefused  "overdrive"
+kept, used as id (System.String::op_Equality): ClassHost::Rates  "stopped"
+kept, used as id (System.String::op_Equality): ClassHost::WriteReport  "stopped"
+left to display time (also used as id, stfld): ClassHost::Handle  "Rally Cry"
+left to display time (single word, RepoRPG.Game::Get#1): ClassHost::HeldBy  "grabbed"
+left to display time (single word, stelem.ref): ClassHost::Reboot  "Default"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Reboot  "No head in sight"
+skipped (excluded type): ClassHost::OnRevived  "Rally the Fallen"
+skipped (excluded type): ClassHost::OnRevived  "Undertaker"
+kept, used as id (RepoRPG.ClassHost::TakeScrap): ClassHost::LedgerFor  "Unsettled bet"
+left to display time (single word, RepoRPG.Game::Get#1): ClassHost::ItemName  "item"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Resupply  "Resupply: no charges left this level"
+scoped entry ignored, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Resupply  "Resupply: out of charges - another costs "
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Resupply  "Resupply: no drained batteries in reach"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Resupply  "Resupply: those items were already resupplied this level"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Resupply  "Resupply: not enough Scrap"
+left to display time (single word, stfld): ClassHost::Resupply  "Resupply"
+scoped entry ignored, log/network (RepoRPG.Net::SendNotice): ClassHost::Resupply  "Resupplied"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::HandOff  "Hand-off: hold the item first"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::HandOff  "Hand-off: only items and valuables"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::HandOff  "Hand-off: no teammate in reach"
+left to display time (single word, stelem.ref): ClassHost::HandOff  "Default"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::HandOff  "Hand-off: they're out of sight"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::PlaceBet  "Hold a valuable to bet on it"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::PlaceBet  "Already marked"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::PlaceBet  "You already have a bet running"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::PlaceBet  "Double or Nothing: already used this level"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PlaceBet  "Bet placed on ${0:N0} - {1} at stake. Get it out in {2:0}s!"
+scoped entry ignored, log/network (RepoRPG.Net::SendBetState): ClassHost::OnExtracting  "'s bet was void - extracted before it was live"
+kept, used as id (RepoRPG.Scrap::HostGrant): ClassHost::OnExtracting  "Side Bet"
+kept, log/network (RepoRPG.Net::SendBetState): ClassHost::OnExtracting  "{0} won the bet! x{1:0.0} - ${2:N0}"
+scoped entry ignored, log/network (RepoRPG.Net::SendBetState): ClassHost::SettleExpired  "'s Double or Nothing expired - the bonus is lost"
+scoped entry ignored, log/network (RepoRPG.Net::SendBetState): ClassHost::SettleLost  "'s bet was lost"
+kept, used as id (RepoRPG.ClassHost::TakeScrap): ClassHost::SettleLost  "Lost bet"
+scoped entry ignored, log/network (local -> RepoRPG.Net::SendBetState): ClassHost::SettleLost  " lost the bet"
+kept, used as id (RepoRPG.Scrap::HostGrant): ClassHost::OnValuableDestroyed  "Insurance"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "No valuable within reach to dispatch"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "That can't be dispatched"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "Too big to dispatch"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "A copied Dispatch only takes tiny and small items"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "Put it down first: it has to sit still"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "Already on its way"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "A dispatch is already counting down"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "Two dispatches are already counting down"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Dispatch  "No open extraction"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Dispatch  "Dispatch: {0} {1} in {2:0}s - nobody touch it"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Dispatch  "leaves"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Dispatch  "goes to your Drop Pad"
+kept, used as id (RepoRPG.ClassHost::Tell): ClassHost::TickDispatches  "Dispatch lost: the item broke"
+kept, used as id (local -> System.String::op_Inequality): ClassHost::TickDispatches  "someone grabbed it"
+kept, used as id (local -> System.String::op_Inequality): ClassHost::TickDispatches  "it was moved"
+kept, used as id (local -> System.String::op_Inequality): ClassHost::TickDispatches  "it was damaged"
+kept, used as id (local -> System.String::op_Inequality): ClassHost::TickDispatches  "the extraction closed"
+scoped entry ignored, log/network (RepoRPG.Net::SendNotice): ClassHost::CancelDispatch  "Dispatch cancelled: "
+kept, used as id (RepoRPG.ClassHost::CancelDispatch): ClassHost::Deliver  "the extraction closed"
+kept, used as id (RepoRPG.ClassHost::CancelDispatch): ClassHost::Deliver  "it couldn't be moved"
+kept, used as id (RepoRPG.Scrap::HostGrant): ClassHost::Deliver  "Rush Fee"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::BankPad  "Drop Pad delivered: ${0:N0} with the haul"
+left to display time (single word, stelem.ref): ClassHost::Provoke  "nothing"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Provoke  "Look at a monster to provoke it"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Provoke  "Look at a monster to provoke it"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Provoke  "Look at a monster to provoke it"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Provoke  "That monster can't be provoked"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Provoke  "No monster nearby to provoke"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Provoke  "Provoked: two monsters vs {0} ({1:0}s)"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Provoke  "Provoked: {0} vs {1} ({2:0}s)"
+kept, used as id (RepoRPG.Scrap::HostGrant): ClassHost::EndFight  "Prize Money"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::GearOnHolding  "Prospecting: +{0:0}% value"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::GearLossFactor  "Padding Kit: no value lost ({0} left)"
+kept, used as id (RepoRPG.Scrap::HostTake): ClassHost::GearLossFactor  "Taxman's Ledger"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PerkOnGrabbed  "Catch! +{0:0}% value"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PerkOnGrabbed  "Catch! +{0:0}% value"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PerkLossFactor  "Butterfingers Insurance: no value lost"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PerkLossFactor  "Careful: no value lost"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Mend  "Nothing nearby has lost value (or it's already been mended)"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Mend  "Mended {0} valuable{1}: +${2:N0}"
+left to display time (single word, RepoRPG.Game::Get#1): ClassHost::TickScavengers  "closed"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::TickScavengers  "Keen Eye: found something"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Rummage  "Rummage needs a room to search"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Rummage  "Nothing to rummage in the truck"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Rummage  "This room has already been rummaged"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Rummage  "You've found all you can this level"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Rummage  "Nothing to find here"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Rummage  "Rummage: found {0} thing{1}"
+kept, used as id (RepoRPG.Scrap::HostGrant): ClassHost::InsurerCoverage  "Insurance"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::TagPolicy  "No valuable within reach to tag"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::TagPolicy  "That can't be insured"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::TagPolicy  "Already insured"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::TagPolicy  "Policy on {0}: move it {1:0}m to activate"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PolicyOnDestroyed  "Policy void: a player broke it"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PolicyOnDestroyed  "Policy void: only moved {0:0}m of {1:0}m"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::PolicyOnDestroyed  "Policy paid: ${0:N0} counts toward the haul"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::PlaceWatchpost  "Too far to place a Watchpost"
+left to display time (single word, ret): ClassHost::EnemyName  "Monster"
+skipped (excluded type): ClassHost::HostCartRecharge  "You need the Field Charger talent"
+skipped (excluded type): ClassHost::HostCartRecharge  "Hold a gun to recharge it"
+skipped (excluded type): ClassHost::HostCartRecharge  "This weapon has no battery"
+skipped (excluded type): ClassHost::HostCartRecharge  "Gun is full"
+skipped (excluded type): ClassHost::HostCartRecharge  "No cart close enough"
+skipped (excluded type): ClassHost::HostCartRecharge  "No battery in cart"
+skipped (excluded type): ClassHost::HostCartRecharge  "No battery in cart"
+skipped (excluded type): ClassHost::HostCartRecharge  "Gun recharged from cart (+{0:0}%)"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Pacify  "No monster in sight to pacify"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Pacify  "Pacified {0} monsters for {1:0}s"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::Pacify  "Pacified {0} for {1:0}s"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Yank  "Nothing to hook there"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Yank  "Out of the Hook's reach"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Yank  "Too heavy to yank"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Yank  "Someone is holding it"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::Yank  "Can't hook through walls"
+kept, used as id (RepoRPG.ClassHost::Refuse): ClassHost::HandleThirdWave  "Too far for an echo"
+skipped (excluded type): ClassHost::HostConsumableE  "Smoke Canister burst"
+skipped (excluded type): ClassHost::HostConsumableE  "Smoke: {0} monster{1} lost sight of you"
+skipped (excluded type): ClassHost::HostConsumableE  "Decoy Whistle: monsters go to check it out"
+skipped (excluded type): ClassHost::HostConsumableE  "Flash Charge went off"
+skipped (excluded type): ClassHost::HostConsumableE  "Flash: {0} monster{1} stunned"
+skipped (excluded type): ClassHost::HostRecallCart  "Recall Beacon: used this level"
+skipped (excluded type): ClassHost::HostRecallCart  "Recall Beacon: no empty cart"
+skipped (excluded type): ClassHost::HostRecallCart  "Recall Beacon: a cart is here"
+skipped (excluded type): ClassHost::HostTwinPadX  "Twin Pads: only a Courier has a Drop Pad"
+skipped (excluded type): ClassHost::HostTwinPadX  "Twin Pads: Drop Pad 2 is here"
+skipped (excluded type): ClassHost::HostInsulateX  "Insulated Cart: already used this level"
+skipped (excluded type): ClassHost::HostInsulateX  "Insulated Cart: stand next to a cart"
+skipped (excluded type): ClassHost::HostInsulateX  "Insulated Cart: its valuables lose no value from bumps while it stands still"
+skipped (excluded type): ClassHost::HostCrackVaultX  "Vault cracked"
+skipped (excluded type): ClassHost::HostCrackVaultX  "Vault cracked by {0}: now worth ${1:N0}"
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::TickHitchX  "Trailer Hitch: carts hitched. Yank them apart to unhitch."
+kept, log/network (RepoRPG.Net::SendNotice): ClassHost::TickDumbwaiterX  "Dumbwaiter: {0} (${1:N0}) sent to the open extraction"
+skipped (excluded type): Game::IsHoldingSomething  "grabbed"
+skipped (excluded type): Game::HeldComponent  "grabbed"
+skipped (excluded type): Game::HeldValuable  "grabbed"
+skipped (excluded type): GameCheck::TickNotice  " and {0} more"
+skipped (excluded type): GameCheck::TickNotice  "RepoRPG: this game version changed something - off: "
+skipped (excluded type): GameCheck::TickNotice  ". See the log."
+skipped (excluded type): GameCheck::.cctor  "grabbed"
+skipped (excluded type): GameCheck::.cctor  "closed"
+skipped (excluded type): Guard::TickNotice  "RepoRPG: '"
+skipped (excluded type): Guard::TickNotice  "' hit an error and was switched off until the next level. The rest of the mod keeps working."
+skipped (excluded type): LoopTrace::NameOf  " (you)"
+skipped (excluded type): ClassDatabase::LoadRpgData  "upgrade "
+skipped (excluded type): Net::HostDecide  "shop closed"
+skipped (excluded type): Net::HostDecide  "not verified"
+skipped (excluded type): Net::Account_HostStarter  "Seed money"
+skipped (excluded type): Net::Gift  "Gift failed: "
+skipped (excluded type): Net::OnEvent  "a newer version (protocol {0})"
+skipped (excluded type): Net::OnEvent  "an older version (protocol {0}; {1} is RepoRPG's old name)"
+skipped (excluded type): Net::OnEvent  " runs "
+skipped (excluded type): Net::OnEvent  "a newer version"
+skipped (excluded type): Net::OnEvent  "an older version (Semibot RPG?)"
+skipped (excluded type): Net::OnEvent  ": they need RepoRPG 1.0.100"
+skipped (excluded type): Net::OnEvent  " (removed)."
+skipped (excluded type): Net::Dispatch  "not verified"
+skipped (excluded type): Net::Dispatch  "!Gift failed: "
+skipped (excluded type): Net::Dispatch  "not verified"
+skipped (excluded type): Net::SendContractFine  "Auditor contract failed"
+skipped (excluded type): Net::OnRunShapeMsg  "Auditor contract failed"
+skipped (excluded type): Net::OnResearchMsgE  "not verified"
+left to display time (single word, stind.ref): BatteryRule::CostMult  "Overclock"
+kept, used as id (System.String::op_Inequality): BatteryRule::Note  "Overclock"
+kept, used as id (HarmonyLib.AccessTools::TypeByName): LateJoinModuleOncePatch::TargetMethods  "Module"
+left to display time (single word, RepoRPG.Game::Get#1): OverclockWeapons::Tick  "grabbed"
+kept, used as id (RepoRPG.PatchGuard::Run): ExtractionPatch::Postfix  "extraction"
+kept, used as id (System.String::IndexOf): GameSaveDeletePatch::TargetMethods  "Delete"
+kept, used as id (System.String::IndexOf): GameSaveDeletePatch::TargetMethods  "Save"
+left to display time (single word, RepoRPG.Game::Get#1): GunTuner::Tick  "grabbed"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Rare+"
+left to display time (single word, stelem.ref): ModConfig::.ctor  "Rare+"
+left to display time (single word, stelem.ref): ModConfig::.ctor  "All"
+left to display time (single word, stelem.ref): ModConfig::.ctor  "None"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Contracts"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Other"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "left"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "right"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Healing"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Attributes"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Attributes"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Attributes"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Perks"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Class"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Notifications"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Research"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Banner"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Research"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Research"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Research"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Research"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Research"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Research"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Contracts"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Contracts"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Contracts"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Contracts"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Contracts"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Contracts"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Debug"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Crew"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "Crew"
+kept, used as id (BepInEx.Configuration.ConfigFile::Bind): ModConfig::.ctor  "left"
+left to display time (single word, RepoRPG.ModConfig::<SlowerLeveling>g__MoveI|494_0#2): ModConfig::SlowerLeveling  "kill"
+left to display time (single word, RepoRPG.ModConfig::<SlowerLeveling>g__MoveI|494_0#2): ModConfig::SlowerLeveling  "extraction"
+left to display time (also used as id, RepoRPG.ModConfig::<SlowerLeveling>g__MoveI|494_0#2): ModConfig::SlowerLeveling  "level complete"
+left to display time (single word, RepoRPG.ModConfig::<SlowerLeveling>g__MoveI|494_0#2): ModConfig::SlowerLeveling  "revive"
+left to display time (single word, RepoRPG.ModConfig::<SlowerLeveling>g__MoveI|494_0#2): ModConfig::SlowerLeveling  "upgrade"
+skipped (excluded type): RunStore::Normalize  "buyback"
+skipped (excluded type): RunStore::Normalize  "buyback"
+skipped (excluded type): RunStore::Normalize  "gear"
+skipped (excluded type): Ascension::HostTick  "Ascension: you're the Marked Earner this level - noises near you carry farther"
+left to display time (single word, stfld): Ascension::.cctor  "Inflation"
+left to display time (single word, stelem.ref): AttrBonus::Title  "weapon"
+left to display time (single word, ret): AttrBonus::Title  "Bruiser"
+left to display time (single word, ret): AttrBonus::Title  "Ghost"
+left to display time (single word, ret): AttrBonus::Title  "Marksman"
+left to display time (single word, ret): AttrBonus::Title  "Spellslinger"
+left to display time (single word, ret): AttrBonus::Title  "Acrobat"
+left to display time (single word, ret): AttrBonus::Title  "Specialist"
+left to display time (single word, ret): AttrBonus::Title  "Tank"
+left to display time (single word, ret): AttrBonus::Title  "Balanced"
+skipped (excluded type): Bosses::HostOnKilled  "Boss kill"
+skipped (excluded type): Bosses::HostOnKilled  "Boss kill (Bounty Board)"
+skipped (excluded type): Bosses::HostOnKilled  "Boss core"
+left to display time (single word, stfld): ContractDef::.ctor  "personal"
+left to display time (single word, ret): ContractKind::Name  "Contract"
+kept, used as id (System.String::op_Equality): ContractKind::Parse  "class"
+kept, used as id (System.String::op_Equality): ContractKind::Parse  "rival"
+left to display time (single word, stelem.ref): ContractKind::.cctor  "Personal"
+left to display time (single word, stelem.ref): ContractKind::.cctor  "Class"
+left to display time (single word, RepoRPG.ContractBoard::<Validate>g__Check|28_0#0): ContractBoard::Validate  "contract"
+left to display time (also used as id, RepoRPG.ContractBoard::<Validate>g__Check|28_0#0): ContractBoard::Validate  "team contract"
+kept, used as id (System.String::op_Equality): ContractBoard::Generate  "class"
+kept, used as id (System.String::op_Equality): ContractBoard::Generate  "rival"
+kept, used as id (System.String::op_Equality): ContractBoard::Generate  "personal"
+left to display time (single word, System.Collections.Generic.List`1::Add#0): ContractBoard::RewardOptions  "gear"
+left to display time (single word, System.Collections.Generic.List`1::Add#0): ContractBoard::RewardOptions  "module"
+kept, used as id (System.String::op_Equality): ContractBoard::OptionText  "gear"
+kept, used as id (System.String::op_Equality): ContractBoard::OptionText  "module"
+skipped (excluded type): ContractHost::HostAccept  "closed"
+skipped (excluded type): ContractHost::HostReroll  "closed"
+skipped (excluded type): ContractHost::HostReroll  "not verified"
+skipped (excluded type): ContractHost::HostClaim  "rival"
+skipped (excluded type): ContractHost::HostClaim  "rival"
+skipped (excluded type): ContractHost::HostClaim  "Contract"
+skipped (excluded type): ContractHost::HostLevelDone  "No rivals took it - void"
+skipped (excluded type): ContractHost::HostLevelDone  "Rival contract"
+kept, used as id (System.String::op_Equality): Contracts::Title  "Specialist"
+left to display time (single word, System.Collections.Generic.List`1::Add#0): Contracts::Reward  "gear"
+left to display time (single word, stfld): Contracts::.cctor  "Specialist"
+left to display time (single word, ret): Crafting::Describe  "nothing"
+skipped (excluded type): Crafting::HostTake  "gone"
+skipped (excluded type): Crafting::HostLures  "5 monsters lured"
+left to display time (single word, ret): Cursed::RarityName  "Starter"
+left to display time (single word, ret): Cursed::RarityName  "Cursed"
+left to display time (single word, stelem.ref): DifficultyPresets::.cctor  "Normal"
+left to display time (single word, stsfld): DifficultyPresets::.cctor  "Normal"
+left to display time (single word, stelem.ref): DifficultyPresets::.cctor  "Reset"
+left to display time (single word, stelem.ref): DifficultyPresets::.cctor  "Reset"
+left to display time (single word, stelem.ref): DifficultyPresets::.cctor  "Reset"
+left to display time (single word, stelem.ref): DifficultyPresets::.cctor  "Reset"
+left to display time (single word, ret): Elements::SourceOf  "module"
+left to display time (single word, RepoRPG.Game::Get#1): HostDirector::ElementalHit  "grabbed"
+left to display time (single word, RepoRPG.HostDirector::ElemLogOnce#2): HostDirector::ElementOnHit  "hit"
+left to display time (single word, RepoRPG.Game::Get#1): HostDirector::HeldText  "grabbed"
+kept, log/network (BepInEx.Logging.ManualLogSource::LogInfo): HostDirector::ElementsPlayersTick  "none"
+kept, log/network (RepoRPG.Net::SendElementCombo): HostDirector::ApplyElement  "SHATTER"
+kept, log/network (RepoRPG.Net::SendElementCombo): HostDirector::ApplyElement  "OVERLOAD"
+kept, log/network (RepoRPG.Net::SendElementCombo): HostDirector::ApplyElement  "SHORT CIRCUIT"
+kept, used as id (RepoRPG.Scrap::HostGrant): HostDirector::PerkHaul  "Haul Hound"
+kept, log/network (RepoRPG.Net::SendHealNotice): HostDirector::AfterWeaponHit  "Lifesteal"
+kept, used as id (RepoRPG.Scrap::HostGrant): HostDirector::ResearchTickC  "Side Hustle"
+kept, log/network (RepoRPG.Net::SendNotice): HostDirector::TickNestPickX  "Monster Nest: {0} monsters guard it. Kill them all for a nest core."
+kept, log/network (RepoRPG.Net::SendNotice): HostDirector::ResearchEnemyDiedX  "Nest cleared: a nest core dropped. Extract it for Research Data."
+kept, log/network (RepoRPG.Research::HostGrantAll): HostDirector::ResearchEnemyDiedX  "Nest core"
+scoped entry ignored, log/network (RepoRPG.Net::SendNotice): HostDirector::SupplyDropX  "Supply Drop: a crate fell near "
+kept, used as id (RepoRPG.Scrap::HostGrant): HostDirector::OnEnemyDied  "Elite kill (Bounty Board)"
+kept, used as id (RepoRPG.Scrap::HostGrant): HostDirector::OnEnemyDied  "Elite kill (Bounty drill)"
+left to display time (single word, ret): Elites::TierName  "Champion"
+left to display time (single word, ret): Elites::TierName  "Overlord"
+left to display time (single word, ret): Elites::TierName  "Boss"
+kept, used as id (RepoRPG.ClassDatabase::ReadEmbedded): GearX::Load  "gear"
+kept, used as id (RepoRPG.ClassDatabase::ReadWithOverride): GearX::Load  "gear"
+kept, used as id (RepoRPG.ClassDatabase::ReadWithOverride): Heat::Load  "heat"
+kept, used as id (RepoRPG.ClassDatabase::ReadEmbedded): Heat::Load  "heat"
+left to display time (single word, ret): Heat::Name  "Skip"
+skipped (excluded type): HostSettings::TimingLabel  "applies next run"
+skipped (excluded type): HostSettings::TimingLabel  "applies next level"
+skipped (excluded type): HostSettings::TimingLabel  "applies now"
+skipped (excluded type): HostSettings::OnAck  " has RepoRPG "
+skipped (excluded type): HostSettings::OnAck  " (you have 1.0.100): "
+skipped (excluded type): HostSettings::OnAck  " has an older version ("
+skipped (excluded type): HostSettings::OnAck  "; Semibot RPG is RepoRPG's old name) and needs RepoRPG 1.0.100: "
+skipped (excluded type): HostSettings::OnAck  "their mod is paused in your lobby."
+skipped (excluded type): HostSettings::OnAck  "removed from the room."
+skipped (excluded type): HostSettings::Check  "{0} damaged line(s)"
+skipped (excluded type): HostSettings::Check  "no settings in it"
+skipped (excluded type): HostSettings::Check  "{0} settings"
+skipped (excluded type): HostSettings::Check  " · {0} out-of-range value(s) skipped"
+skipped (excluded type): HostSettings::Check  "can't be read: "
+skipped (excluded type): HostSettings::Invalid  "Invalid: "
+skipped (excluded type): HostSettings::TickDefault  "Default preset '"
+skipped (excluded type): HostSettings::TickDefault  "' couldn't be loaded"
+skipped (excluded type): HostSettings::.cctor  "Class and ability tuning shared by the whole lobby."
+skipped (excluded type): HostSettings::.cctor  "Perks"
+skipped (excluded type): HostSettings::.cctor  "Attributes"
+skipped (excluded type): HostSettings::.cctor  "How fast classes level and what a level gives."
+skipped (excluded type): HostSettings::.cctor  "Scrap: how much you earn, how it's split, prices."
+skipped (excluded type): HostSettings::.cctor  "Global caps and run rules."
+skipped (excluded type): HostSettings::.cctor  "Healing"
+skipped (excluded type): HostSettings::.cctor  "Healing"
+skipped (excluded type): HostSettings::.cctor  "Caps on healing from every source."
+skipped (excluded type): HostSettings::.cctor  "Elites, gear drops, contracts per level and other RPG rules."
+skipped (excluded type): HostSettings::.cctor  "Named bosses: how often, how tough, what they drop."
+skipped (excluded type): HostSettings::.cctor  "Set pieces and crafting parts."
+skipped (excluded type): HostSettings::.cctor  "Synergies, highlights, call-outs and clutch revives."
+skipped (excluded type): HostSettings::.cctor  "Contracts"
+skipped (excluded type): HostSettings::.cctor  "Contracts"
+skipped (excluded type): HostSettings::.cctor  "The contract board (size, rerolls, slots, rivals, rewards) and team contracts (voting and stakes)."
+skipped (excluded type): HostSettings::.cctor  "Monster count, health and damage (the difficulty presets set these), the payout tier and the run modifiers."
+skipped (excluded type): HostSettings::.cctor  "Valuable values: overpriced modded valuables brought in line with vanilla, and the overall value multiplier."
+skipped (excluded type): HostSettings::.cctor  "Class starter items: the small class-bound gear piece each class gets once per run, and the starter tools some classes get at their first level."
+skipped (excluded type): HostSettings::.cctor  "Elemental weapons: on or off, how strong the statuses are, and the visuals."
+skipped (excluded type): HostSettings::.cctor  "Ascension: after a win, replay at higher levels with stacking modifiers and better rewards; who decides the levels the host can pick."
+skipped (excluded type): HostSettings::.cctor  "Research"
+skipped (excluded type): HostSettings::.cctor  "Research"
+skipped (excluded type): HostSettings::.cctor  "Research: whether it's on, whose research decides the lobby-wide unlocks, how much Data runs give, costs and sample chance."
+skipped (excluded type): HostSettings::.cctor  "The living economy: valuable prices by category that move with what the team extracts, shop demand, market requests and market events."
+skipped (excluded type): HostSettings::.cctor  "Players joining after the run started: where, spawn, class window, catch-up."
+skipped (excluded type): HostSettings::.cctor  "Lobby size (up to 20) and difficulty scaling by player count: strength and each category."
+skipped (excluded type): HostSettings::.cctor  "How long a run is (chapters x levels), with a finale boss at the end and an End / Endless vote after the win; the route vote between levels; and the heat vote after each milestone."
+skipped (excluded type): HostSettings::.cctor  "Milestones every few levels (a milestone boss, rewards, a boon vote, a new chapter) and the team streak."
+skipped (excluded type): HostSettings::.cctor  "Crew"
+skipped (excluded type): HostSettings::.cctor  "Run boons from boss kills, the crew level (a shared team level with small bonuses), and what unlocks deeper into a run."
+skipped (excluded type): HostSettings::.cctor  "The threat rating that rises with every level cleared: speed, cap, grace levels and each category."
+skipped (excluded type): HostSettings::.cctor  "What players' account progress (unlocks, mastery, prestige) may do in this lobby."
+skipped (excluded type): LateJoinHost::Tick  "Late join: "
+skipped (excluded type): LateJoinHost::Tick  " handles joining; RepoRPG catches joiners up"
+skipped (excluded type): LateJoinHost::SetOpen  "closed"
+skipped (excluded type): LateJoinHost::OnPlayerEntered  "in the truck"
+skipped (excluded type): LateJoinHost::OnPlayerEntered  "in the shop"
+skipped (excluded type): LateJoinHost::SyncDestroyed  "closed"
+skipped (excluded type): LateJoinHost::GiveStartScrap  "Late-join starting Scrap"
+skipped (excluded type): LateJoinHost::SyncRoutine  "A player"
+left to display time (single word, ret): Market::Group  "gear"
+kept, used as id (System.String::StartsWith): Market::SectionOf  "gear"
+kept, used as id (System.String::op_Equality): Market::SectionOf  "module"
+kept, used as id (System.String::op_Equality): Market::SectionOf  "crate"
+kept, used as id (System.String::op_Equality): Market::SectionOf  "premium"
+skipped (excluded type): Market::HostNewRequest  "A collector"
+skipped (excluded type): Market::HostExtracted  "Market request ("
+left to display time (also used as id, stloc.3): Market::EventText  "this level"
+left to display time (single word, stfld): Market::.cctor  "Boom"
+left to display time (single word, stfld): Market::.cctor  "Crash"
+left to display time (single word, stfld): Market::.cctor  "Shortage"
+left to display time (single word, stfld): Market::.cctor  "Recession"
+left to display time (single word, stfld): Market::.cctor  "Stimulus"
+left to display time (single word, stelem.ref): Market::.cctor  "gear"
+left to display time (single word, stelem.ref): Market::.cctor  "Modules"
+left to display time (single word, stfld): Market::KnownGroups  "gear"
+left to display time (single word, stfld): Market::KnownGroups  "module"
+left to display time (single word, stfld): Market::KnownGroups  "crate"
+left to display time (single word, stfld): Market::KnownGroups  "premium"
+left to display time (single word, ret): Perks::LabelOf  "Cursed"
+left to display time (the mod tests texts with StartsWith("Complete") in RpgRuntime::DrawHistoryLine): Perks::PickPreview  "Completes {0} x{1}"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+left to display time (single word, stelem.ref): Perks::.cctor  "Monster"
+scoped entry ignored, used as id (local -> System.String::op_Inequality): PlayerScaling::Banner  "Next level: "
+kept, used as id (local -> System.String::op_Inequality): PlayerScaling::Banner  "  ·  Difficulty scaling off"
+scoped entry ignored, used as id (local -> System.String::op_Inequality): PlayerScaling::Banner  "  ·  lobby size by "
+kept, used as id (RepoRPG.ClassDatabase::ReadEmbedded): Research::Load  "research"
+kept, used as id (RepoRPG.ClassDatabase::ReadWithOverride): Research::Load  "research"
+left to display time (single word, stind.ref): Research::CanStart  "Done"
+left to display time (single word, RepoRPG.Research::Receive#1): Research::OnContractDone  "contract"
+skipped (excluded type): ResearchCrew::SponsorGoal  "Finish {0} contracts as a team"
+skipped (excluded type): ResearchCrew::SponsorGoal  "Take down {0} elites (a boss counts 3)"
+skipped (excluded type): ResearchCrew::SponsorGoal  "Lose no more than {0} lives in the whole team (and clear 5 levels)"
+skipped (excluded type): ResearchCrew::SponsorGoal  "Reach a streak of {0} levels"
+skipped (excluded type): ResearchCrew::SponsorGoal  "Reach {0} more milestones"
+skipped (excluded type): ResearchCrew::HostOnExtraction  "Payday drill"
+skipped (excluded type): ResearchCrew::HostContractPaid  "The Archivist"
+skipped (excluded type): ResearchCrew::SponsorLine  "{0} lost so far"
+skipped (excluded type): ResearchCrew::SponsorLine  "paid out"
+skipped (excluded type): ResearchCrew::HostRunEnd  "Sponsor "
+skipped (excluded type): ResearchCrew::HostRunEnd  ": the goal wasn't reached. No payout"
+skipped (excluded type): ResearchCrew::HostRunEnd  "Sponsor {0}: half way there. +{1} Scrap and some Research Data"
+skipped (excluded type): ResearchCrew::HostRunEnd  "Sponsor {0}: goal met! +{1} Scrap and Research Data"
+skipped (excluded type): ResearchCrew::HostRunEnd  "Sponsor: "
+skipped (excluded type): ResearchCrew::HostRunEnd  "Sponsor: "
+left to display time (single word, stfld): ResearchCrew::.cctor  "Payday"
+left to display time (single word, stfld): ResearchCrew::.cctor  "Recovery"
+left to display time (single word, stfld): ResearchEcon::AddConsumables  "Suppressor"
+left to display time (single word, stfld): ResearchEcon::AddConsumables  "Stock"
+left to display time (single word, stloc.0): ResearchEcon::ProtoSlot  "plating"
+left to display time (single word, stloc.0): ResearchEcon::ProtoSlot  "plating"
+left to display time (single word, stloc.0): ResearchEcon::ProtoSlot  "core"
+left to display time (single word, stloc.0): ResearchEcon::ProtoSlot  "core"
+left to display time (single word, stloc.0): ResearchEcon::ProtoSlot  "servos"
+left to display time (single word, stloc.0): ResearchEcon::ProtoSlot  "weapon"
+left to display time (single word, RepoRPG.Game::Get#1): GunBench::Tick  "grabbed"
+skipped (excluded type): ResearchSamples::HostExtracted  "Research sample"
+skipped (excluded type): FieldResearch::HostExtracted  "Nest core"
+skipped (excluded type): FieldResearch::HostExtracted  "Anomaly sample"
+left to display time (single word, stfld): FieldResearch::.cctor  "Expedition"
+left to display time (single word, RepoRPG.Roster::Line#1): Roster::Build  "You"
+left to display time (single word, RepoRPG.Game::Get#2): Roster::Build  "You"
+left to display time (single word, RepoRPG.Roster::Line#1): Roster::Build  "Player"
+left to display time (single word, ret): Routes::Name  "Expedition"
+kept, used as id (System.String::op_Equality): Routes::ClearReward  "gear"
+skipped (excluded type): RunShape::HostLevelCleared  "Milestone {0}"
+skipped (excluded type): RunShape::HostLevelCleared  "chapter {0}"
+skipped (excluded type): RunShape::HostVictory  "Victory"
+skipped (excluded type): RunShape::HostVictory  "Victory"
+kept, log/network (BepInEx.Logging.ManualLogSource::LogInfo): RunShape::Decide  "Endless"
+skipped (excluded type): RunShape::HostTake  "Milestone {0} payout"
+skipped (excluded type): RunShape::HostBossKilled  "A boss kill"
+skipped (excluded type): RunShape::HostBossKilled  "Boss: "
+skipped (excluded type): RunShape::HostExtraction  "Full Sweep"
+skipped (excluded type): RunShape::SendRecap  "Level {0}: {1} - {2}{3}"
+skipped (excluded type): RunShape::SendRecap  "{0} milestone boss{1} down"
+skipped (excluded type): RunShape::SendRecap  "A {0}-level streak"
+skipped (excluded type): RunShape::HostLevelCleared  "Milestone"
+kept, used as id (System.String::op_Equality): SalvageCalc::NeedsConfirm  "none"
+kept, used as id (local -> RepoRPG.Scrap::Distribute): Scrap::Earn  "Team earnings"
+kept, used as id (local -> RepoRPG.Scrap::Distribute): Scrap::Earn  "Level haul"
+kept, used as id (local -> RepoRPG.Scrap::Distribute): Scrap::Earn  "Valuables extracted"
+kept, used as id (System.String::op_Equality): Scrap::Distribute  "Valuables extracted"
+kept, used as id (RepoRPG.Scrap::HostNoticeTo): Scrap::Distribute  "Windfall! Double Scrap from that extraction"
+kept, used as id (System.String::op_Equality): Scrap::Distribute  "Valuables extracted"
+skipped (excluded type): Scrap::HostGift  "gifting is turned off by the host"
+skipped (excluded type): Scrap::HostGift  "invalid amount"
+skipped (excluded type): Scrap::HostGift  "no save loaded"
+skipped (excluded type): Scrap::HostGift  "not verified"
+skipped (excluded type): Scrap::HostGift  "that player isn't here"
+skipped (excluded type): Scrap::HostGift  "not enough "
+skipped (excluded type): Scrap::HostGift  "Gift to "
+skipped (excluded type): Scrap::HostGift  "Gift from "
+left to display time (single word, stfld): SeasonFile::.ctor  "Endless"
+left to display time (single word, stfld): Season::Load  "Endless"
+left to display time (single word, ret): Season::ChapterName  "Endless"
+left to display time (the mod tests texts with Contains("Chapter ") in RpgRuntime::RunStatusChips): Season::ChapterLabel  "Chapter {0}/{1}"
+skipped (excluded type): Season::HostTick  " and calls "
+skipped (excluded type): Season::HostTick  " to its side!"
+skipped (excluded type): SettingsSync::.cctor  "Healing"
+skipped (excluded type): SettingsSync::.cctor  "Perks"
+skipped (excluded type): SettingsSync::.cctor  "Contracts"
+skipped (excluded type): SettingsSync::.cctor  "Attributes"
+skipped (excluded type): SettingsSync::.cctor  "Crew"
+skipped (excluded type): SettingsSync::.cctor  "Research"
+skipped (excluded type): Shop::HostBasePrice  "crate"
+skipped (excluded type): Shop::HostBasePrice  "premium"
+skipped (excluded type): Shop::HostBasePrice  "upgrade"
+skipped (excluded type): Shop::HostBasePrice  "reroll"
+kept, used as id (System.String::op_Equality): ShopX::BasePrice  "module"
+kept, used as id (RepoRPG.Market::PriceMult): ShopX::CratePrice  "crate"
+kept, used as id (RepoRPG.Market::PriceMult): ShopX::CratePrice  "premium"
+skipped (excluded type): ShopX::HostLimit  "one of each consumable per visit"
+skipped (excluded type): ShopX::HostLimit  "consumable limit reached"
+skipped (excluded type): ShopX::HostLimit  "2 locks at most"
+skipped (excluded type): ShopX::HostLimit  "one futures order per visit"
+kept, used as id (System.String::op_Equality): ShopX::Generate  "gear"
+left to display time (single word, stfld): ShopX::Generate  "module"
+left to display time (single word, stfld): ShopX::Generate  "module"
+kept, used as id (RepoRPG.ShopX::BasePrice): ShopX::Generate  "module"
+left to display time (single word, stfld): ShopX::Generate  "module"
+left to display time (single word, stfld): ShopX::Generate  "module"
+kept, used as id (RepoRPG.ShopX::BasePrice): ShopX::Generate  "module"
+left to display time (single word, stfld): ShopX::Generate  "module"
+left to display time (single word, stfld): ShopX::Generate  "gear"
+left to display time (single word, stfld): ShopX::Marked  "gear"
+skipped (excluded type): ShopX::Cursed  "Cursed: "
+skipped (excluded type): ShopX::Cursed  "a curse"
+skipped (excluded type): ShopX::Cursed  "Cursed "
+left to display time (single word, stfld): ShopX::GearEntry  "gear"
+left to display time (single word, ret): ShopX::WishName  "nothing"
+skipped (excluded type): Starters::HostTick  "Starter tool: "
+skipped (excluded type): Starters::HostTick  " at your feet"
+skipped (excluded type): Starters::HostTick  "starter tool"
+skipped (excluded type): Starters::HostTick  "Starter tool unavailable ("
+skipped (excluded type): Starters::HostTick  "): +25 Scrap instead"
+left to display time (single word, stelem.ref): TeamContracts::Decide  "accepted"
+scoped entry ignored, log/network (RepoRPG.TeamContracts::Broadcast): TeamContracts::Decide  "Team contract declined: "
+scoped entry ignored, log/network (RepoRPG.TeamContracts::Broadcast): TeamContracts::Decide  " - no reward, no stakes"
+scoped entry ignored, log/network (RepoRPG.TeamContracts::Broadcast): TeamContracts::Decide  "Team contract accepted: "
+left to display time (single word, stloc.0): TeamContracts::StateName  "accepted"
+left to display time (single word, stloc.0): TeamContracts::StateName  "declined"
+kept, used as id (RepoRPG.Scrap::HostGrant): TeamContracts::Settle  "Team contract"
+kept, used as id (RepoRPG.Scrap::HostTake): TeamContracts::Settle  "Team contract failed"
+scoped entry ignored, log/network (RepoRPG.TeamContracts::Broadcast): TeamContracts::Settle  "Team contract failed: "
+scoped entry ignored, log/network (RepoRPG.TeamContracts::Broadcast): TeamContracts::Settle  "Team contract complete: "
+skipped (excluded type): TeamPlay::Merge  "{0} (level {1})"
+skipped (excluded type): TeamPlay::BuildCard  "took {0:0} damage and walked out"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0.#} min with a synergy on"
+skipped (excluded type): TeamPlay::BuildCard  "not a scratch, ${0:N0} carried"
+skipped (excluded type): TeamPlay::BuildCard  "${0:N0} carried to extraction"
+skipped (excluded type): TeamPlay::BuildCard  "revived a teammate in {0:0} s"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} damage avoided"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} HP healed on teammates"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} monsters finished off"
+skipped (excluded type): TeamPlay::BuildCard  "took down an elite"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} elites down"
+skipped (excluded type): TeamPlay::BuildCard  "Double or Nothing paid ${0:N0}"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} monsters lured away"
+skipped (excluded type): TeamPlay::BuildCard  "${0:N0} moved by cart"
+skipped (excluded type): TeamPlay::BuildCard  "${0:N0} of value restored or insured"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} Scrap earned"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} contract{1} completed"
+skipped (excluded type): TeamPlay::BuildCard  "first into {0:0} rooms"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} monsters spotted"
+skipped (excluded type): TeamPlay::BuildCard  "{0:0} valuables dispatched"
+skipped (excluded type): TeamPlay::BuildCard  "a monster fight worth {0:0} damage"
+skipped (excluded type): TeamPlay::BuildCard  "${0:N0} lost to breaks"
+left to display time (single word, System.Text.StringBuilder::Append#0): ValueScale::Report  "off"
+left to display time (single word, System.Text.StringBuilder::Append#0): ValueScale::Report  "on"
+skipped (excluded type): AttributeAlloc::Validate  "nothing to apply"
+skipped (excluded type): AttributeAlloc::Validate  "unknown attribute ("
+skipped (excluded type): AttributeAlloc::Validate  "invalid amount"
+skipped (excluded type): AttributeAlloc::Validate  "{0} would go past its cap of {1}"
+skipped (excluded type): AttributeAlloc::Validate  "only {0} attribute point{1} left"
+skipped (excluded type): AttributeAlloc::Validate  "no attribute points left"
+skipped (excluded type): AttributeAlloc::HostHandle  "the host is on a different save"
+skipped (excluded type): AttributeAlloc::HostHandle  "not verified"
+skipped (excluded type): AttributeAlloc::HostHandle  "invalid request"
+skipped (excluded type): AttributeAlloc::HostHandle  "the host doesn't have your progress yet - try again in a moment"
+left to display time (single word, stelem.ref): Complexity::.cctor  "All"
+left to display time (single word, System.Text.StringBuilder::Append#0): Pad::Diagnose  "none"
+left to display time (single word, RepoRPG.Pad::set_Source#0): Pad::Poll  "none"
+left to display time (single word, stelem.ref): Pad::.cctor  "left"
+left to display time (single word, stelem.ref): Pad::.cctor  "right"
+left to display time (single word, stsfld): Pad::.cctor  "none"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): Pad.XInput::Poll  "left"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): Pad.XInput::Poll  "right"
+left to display time (single word, stloc.2): Pad.UnityPad::DescribeDevices  "none"
+left to display time (single word, stind.ref): Pad.UnityPad::Poll  "gamepad"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): Pad.UnityPad::Poll  "left"
+left to display time (single word, RepoRPG.Pad.UnityPad::Prop#1): Pad.UnityPad::Poll  "left"
+kept, used as id (System.Collections.Generic.Dictionary`2::set_Item): Pad.UnityPad::Poll  "right"
+left to display time (single word, RepoRPG.Pad.UnityPad::Prop#1): Pad.UnityPad::Poll  "right"
+left to display time (single word, stloc.0): HudVis::Name  "Always"
+left to display time (single word, stloc.0): HudVis::Name  "Never"
+skipped (excluded type): TalentAlloc::Simulate  "unknown talent"
+skipped (excluded type): TalentAlloc::Simulate  " is already maxed"
+skipped (excluded type): TalentAlloc::Simulate  "not enough skill points"
+skipped (excluded type): TalentAlloc::Simulate  "{0} unlocks at level {1}"
+skipped (excluded type): TalentAlloc::Simulate  " needs "
+skipped (excluded type): TalentAlloc::Simulate  " can't be learned"
+skipped (excluded type): TalentAlloc::HostHandle  "invalid request"
+skipped (excluded type): TalentAlloc::HostHandle  "unknown class"
+skipped (excluded type): TalentAlloc::HostHandle  "you aren't playing "
+skipped (excluded type): TalentAlloc::HostHandle  "no progress for that class yet"
+skipped (excluded type): TalentAlloc::HostHandle  "invalid request"
+skipped (excluded type): TalentAlloc::HostHandle  "that prestige tree isn't unlocked"
+skipped (excluded type): PerkAlloc::Validate  "nothing to apply"
+skipped (excluded type): PerkAlloc::Validate  "not that many perk picks"
+skipped (excluded type): PerkAlloc::Validate  "that pick isn't available"
+skipped (excluded type): PerkAlloc::Validate  "that perk isn't on offer"
+skipped (excluded type): PerkAlloc::Validate  "you already have that perk"
+skipped (excluded type): PerkAlloc::Validate  "the same perk was picked twice"
+skipped (excluded type): PerkAlloc::Validate  "unknown perk"
+skipped (excluded type): PerkAlloc::Validate  "that perk was banished"
+skipped (excluded type): PerkAlloc::Validate  "cursed perks are turned off"
+skipped (excluded type): PerkAlloc::HostHandle  "invalid request"
+skipped (excluded type): Commit::HostHandle  "unknown class"
+skipped (excluded type): Commit::HostHandle  "class selection is only open in the lobby or shop"
+skipped (excluded type): Commit::HostHandle  "taken by "
+skipped (excluded type): Commit::HostHandle  "the host is on a different save"
+skipped (excluded type): Commit::HostHandle  "not verified"
+skipped (excluded type): Commit::HostHandle  "the host doesn't have your progress yet - try again in a moment"
+skipped (excluded type): Commit::HostHandle  "invalid request"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "revive"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "death"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "monster"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "boss"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "upgrade"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "contract"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "gear"
+left to display time (single word, System.ValueTuple`2::.ctor#0): TextSearch::.cctor  "perk"
+left to display time (single word, stfld): DetailInfo::Begin  "NEEDS"
+left to display time (single word, stfld): DetailInfo::.ctor  "NEEDS"
+left to display time (another piece of the same sentence stays as it is): RpgRuntime::OnTeamXp  "route: "
+left to display time (another piece of the same sentence stays as it is): ClassHost::EndOverdrive  "Overdrive ended: "
+
+--- записи словаря без совпадений (работают только при выводе на экран) ---
+  Overclock
+  Resupply
+  Pending
+  Presets
+  Uniques
+  New
+  Owned
+  Banished
+  Class
+  Attributes
+  Perks
+  Contracts
+  Research
+  Guide
+  Debug
+  Modules
+  Action
+  Monster
+  Notifications
+  grabbed
+  LMB
+  RMB
+  MMB
+  Feed
+  following
+  follow off
+  died
+  knocked over / grabbed
+  hit
+  left the level / menu
+  took too long
+  Jump: climb up  ·  Crouch: drop
+  Jump / Crouch: drop
+  Jump: push off  ·  Crouch: drop
+  Lifeblood
+  Pairing
+  Milestone
+  Accepted
+  Waiting for the host
+  contract
+  Complete
+  Chain step failed - it can be retried once on a later board
+  contract reward
+  overdrive
+  boss
+  Leech Coil
+  crafted
+  Loadout {0}
+  Ultramarathon
+  mod shop
+  research
+  class starter
+  Regeneration
+  Healing aura
+  Healing
+  kill
+  Kill
+  bounty
+  revive
+  death
+  Revive
+  extraction
+  Extraction
+  level complete
+  salvage
+  gear from Rivet
+  crate
+  premium
+  gear crate
+  Rerolls
+  reroll
+  upgrade
+  refund
+  Upgraded
+  Rerolled
+  module
+  item
+  buyback
+  closed
+  no
+  OPEN
+  visible
+  BOSS
+  5 dodges
+  Save
+  On
+  Off
+  drill
+  Change
+  sponsor
+  MONSTER
+  VALUABLE ${0:N0}
+  Teammate:
+  no answer in time
+  a level started
+  a player left
+  research is off in this lobby
+  trades happen in the shop
+  another trade is open right now (try again in a moment)
+  that teammate isn't here
+  the host can't see the gear yet (try again in a moment)
+  that item can't be traded
+  that trade is no longer open
+  the host can't see the gear
+  an item is missing
+  gear
+  Shop closed - it opens between levels
+  Worth nothing to the pawn counter
+  shop closed
+  not verified
+  done
+  gone
+  equipped
+  worthless
+  FUTURES
+  HITCHED
+  it's in a gear trade right now
+  Salvaged gear
+  team contract
+  Field kit
+  Earned
+  Mastered
+  applying...
+  pending
+  Other
+  Next: {0} at {1}
+  Milestones are turned off by the host
+  <color=#ffd75a>All milestones reached</color>
+  Maxed.
+  READY
+  ahead
+  right
+  left
+  CAPSTONE
+  class level {0}
+  Click: add a point · right-click: take a pending one back
+  loot
+  Taken
+  {0}/{1} taken for the next level
+  this level
+  team
+  Voted
+  Declined
+  history
+  OBJECTIVE
+  REWARD
+  STAKES
+  Chain · {0} steps
+  STEPS
+  NEEDS
+  REPUTATION
+  BONUSES
+  UNBOUND
+  INTERFACE
+  TEXT SIZE
+  Banner
+  LIST
+  TALENTS
+  OVERVIEW
+  CLASS TAB
+  AUTO-HIDE
+  ACCESSIBILITY
+  Colorblind-friendly
+  AUDIO
+  GAMEPLAY
+  ASK BEFORE SALVAGE
+  RARE+
+  Rare+
+  None
+  NOTIFICATIONS
+  DURATION
+  MAX SHOWN
+  FEEDBACK
+  DETAILED
+  BIG HEAL
+  CONTROLLER
+  MENU BUTTON HOLD TIME
+  INSTANT
+  VIEW
+  MENU
+  L-STICK
+  R-STICK
+  monster
+  EQUIPPED
+  Unequip
+  plating
+  core
+  weapon
+  servos
+  Starter
+  Salvaging...
+  RARITIES
+  class
+  personal
+  rival
+  CHAINS
+  PLAYING
+  Select
+  unbound
+  Revived
+  ROUTE
+  SYN
+  XP+
+  FINALE
+  D-UP
+  D-DOWN
+  D-LEFT
+  D-RIGHT
+  Hum
+  humming
+  throwing
+  HUD CARD
+  HUD SIZE
+  CLASS LINES
+  ALWAYS
+  NEVER
+  RUN STATUS
+  HEALING POP-UPS
+  The HUD is off (Show HUD).
+  Nothing to show yet: pick a class.
+  Every row is hidden: no card.
+  IN-WORLD
+  CONTRACTS PANEL
+  CLICK
+  normal
+  boon
+  heat
+  route
+  milestone
+  reward
+  perk
+  SWITCH
+  REMINDERS
+  DOWN
+  CROSS
+  CIRCLE
+  SQUARE
+  TRIANGLE
+  D-PAD
+  SPACE
+  Evolved
+  Unselect
+  No perk pick waiting.
+  Level research: +{0:0} Data ({1} now)
+   · {0} sample{1} left behind
+  RESEARCH
+  DATA
+  DONE
+  SOON
+  LOCKED
+  Personal
+  Lobby-wide
+  Choosing...
+  Respec
+  No perk pick waiting - you get one at class level milestones
+  Full Sweep
+  Chapter {0}
+  Endless
+  LOW
+  MID
+  HIGH
+  TOP
+  Unbound
+  Default
+  max
+  Module
+  Consumable
+  Sold
+  <color=#7fd8ff>LOCKED</color>  
+  <color=#9a9ca0>SOLD</color>
+  View
+  Choose
+  Dismiss
+  Available
+  Selected
+  Locked
+  Maxed
+  Equipped
+  Running...
+  Loading...
+  Team contract
+  Pick it in the truck or the shop.
+  Waiting for the host.
+  Expedition
+  accepted
+  declined
+  Waiting for you
+  Your vote is needed
+  YOUR VOTE
+  waiting:
+  Decided
+  Result
+  RULES
+  Ghosting: monsters lost your trail
+  waiting at extraction
+  making way
+  waiting (monster near)
+  Load too big for this route
+  No safe route (too tight for the cart)
+  No safe route (stairs or a steep slope on the way)
+  No safe route (a ledge on the way)
+  No cart nearby
+  Cart is being held - let go first
+  No extraction point found
+  No safe route
+  level changed
+  stopped
+  parked - push it or walk up to it
+  idle
+  stuck
+  parked at extraction
+  No safe route (the cart isn't on walkable ground)
+  No safe route to that spot
+  waiting
+  time up
+  caster down
+  arrived
+  waiting (too far)
+  no route
+  load too big for this route
+  Cart stuck
+  recovered
+  Your cart fell - brought it back with its load
+  Rally Cry
+  No head in sight
+  Rally the Fallen
+  Undertaker
+  Unsettled bet
+  Resupply: those items were already resupplied this level
+  Resupply: no drained batteries in reach
+  Resupply: not enough Scrap
+  Hand-off: hold the item first
+  Hand-off: only items and valuables
+  Hand-off: they're out of sight
+  Hand-off: no teammate in reach
+  Already marked
+  Bet placed on ${0:N0} - {1} at stake. Get it out in {2:0}s!
+  Side Bet
+  {0} won the bet! x{1:0.0} - ${2:N0}
+  Lost bet
+  Insurance
+  That can't be dispatched
+  No valuable within reach to dispatch
+  Put it down first: it has to sit still
+  Already on its way
+  Two dispatches are already counting down
+  A dispatch is already counting down
+  Dispatch: {0} {1} in {2:0}s - nobody touch it
+  goes to your Drop Pad
+  leaves
+  Dispatch lost: the item broke
+  someone grabbed it
+  it was moved
+  it was damaged
+  the extraction closed
+  it couldn't be moved
+  Rush Fee
+  Drop Pad delivered: ${0:N0} with the haul
+  That monster can't be provoked
+  Provoked: {0} vs {1} ({2:0}s)
+  Provoked: two monsters vs {0} ({1:0}s)
+  Prize Money
+  Prospecting: +{0:0}% value
+  Padding Kit: no value lost ({0} left)
+  Taxman's Ledger
+  Catch! +{0:0}% value
+  Butterfingers Insurance: no value lost
+  Careful: no value lost
+  Nothing nearby has lost value (or it's already been mended)
+  Mended {0} valuable{1}: +${2:N0}
+  Keen Eye: found something
+  Rummage needs a room to search
+  Nothing to rummage in the truck
+  This room has already been rummaged
+  You've found all you can this level
+  Nothing to find here
+  Rummage: found {0} thing{1}
+  That can't be insured
+  Already insured
+  Policy on {0}: move it {1:0}m to activate
+  No valuable within reach to tag
+  Policy void: a player broke it
+  Policy void: only moved {0:0}m of {1:0}m
+  Policy paid: ${0:N0} counts toward the haul
+  Too far to place a Watchpost
+  You need the Field Charger talent
+  Hold a gun to recharge it
+  This weapon has no battery
+  No cart close enough
+  Gun recharged from cart (+{0:0}%)
+  Pacified {0} for {1:0}s
+  Pacified {0} monsters for {1:0}s
+  No monster in sight to pacify
+  Nothing to hook there
+  Out of the Hook's reach
+  Too heavy to yank
+  Someone is holding it
+  Can't hook through walls
+  Too far for an echo
+  Smoke: {0} monster{1} lost sight of you
+  Smoke Canister burst
+  Decoy Whistle: monsters go to check it out
+  Flash: {0} monster{1} stunned
+  Flash Charge went off
+  Recall Beacon: used this level
+  Recall Beacon: no empty cart
+  Recall Beacon: a cart is here
+  Twin Pads: only a Courier has a Drop Pad
+  Twin Pads: Drop Pad 2 is here
+  Insulated Cart: already used this level
+  Insulated Cart: stand next to a cart
+  Insulated Cart: its valuables lose no value from bumps while it stands still
+  Vault cracked
+  Vault cracked by {0}: now worth ${1:N0}
+  Trailer Hitch: carts hitched. Yank them apart to unhitch.
+  Dumbwaiter: {0} (${1:N0}) sent to the open extraction
+  Seed money
+  an older version (protocol {0}; {1} is RepoRPG's old name)
+  a newer version (protocol {0})
+  an older version (Semibot RPG?)
+  a newer version
+  Auditor contract failed
+  Inflation
+  Ascension: you're the Marked Earner this level - noises near you carry farther
+  Bruiser
+  Ghost
+  Marksman
+  Spellslinger
+  Acrobat
+  Specialist
+  Tank
+  Balanced
+  Boss kill (Bounty Board)
+  Boss kill
+  Boss core
+  Contract
+  No rivals took it - void
+  Rival contract
+  nothing
+  5 monsters lured
+  Normal
+  SHATTER
+  OVERLOAD
+  SHORT CIRCUIT
+  Haul Hound
+  Elite kill (Bounty Board)
+  Elite kill (Bounty drill)
+  Lifesteal
+  Side Hustle
+  Monster Nest: {0} monsters guard it. Kill them all for a nest core.
+  Nest cleared: a nest core dropped. Extract it for Research Data.
+  Nest core
+  Champion
+  Overlord
+  Boss
+  Class and ability tuning shared by the whole lobby.
+  How fast classes level and what a level gives.
+  Scrap: how much you earn, how it's split, prices.
+  Global caps and run rules.
+  Caps on healing from every source.
+  Elites, gear drops, contracts per level and other RPG rules.
+  Named bosses: how often, how tough, what they drop.
+  Set pieces and crafting parts.
+  Synergies, highlights, call-outs and clutch revives.
+  The contract board (size, rerolls, slots, rivals, rewards) and team contracts (voting and stakes).
+  Monster count, health and damage (the difficulty presets set these), the payout tier and the run modifiers.
+  Valuable values: overpriced modded valuables brought in line with vanilla, and the overall value multiplier.
+  Class starter items: the small class-bound gear piece each class gets once per run, and the starter tools some classes get at their first level.
+  Elemental weapons: on or off, how strong the statuses are, and the visuals.
+  Ascension: after a win, replay at higher levels with stacking modifiers and better rewards; who decides the levels the host can pick.
+  Research: whether it's on, whose research decides the lobby-wide unlocks, how much Data runs give, costs and sample chance.
+  The living economy: valuable prices by category that move with what the team extracts, shop demand, market requests and market events.
+  Players joining after the run started: where, spawn, class window, catch-up.
+  Lobby size (up to 20) and difficulty scaling by player count: strength and each category.
+  How long a run is (chapters x levels), with a finale boss at the end and an End / Endless vote after the win; the route vote between levels; and the heat vote after each milestone.
+  Milestones every few levels (a milestone boss, rewards, a boon vote, a new chapter) and the team streak.
+  Run boons from boss kills, the crew level (a shared team level with small bonuses), and what unlocks deeper into a run.
+  The threat rating that rises with every level cleared: speed, cap, grace levels and each category.
+  What players' account progress (unlocks, mastery, prestige) may do in this lobby.
+  applies next level
+  applies now
+  applies next run
+  removed from the room.
+  their mod is paused in your lobby.
+  {0} damaged line(s)
+  no settings in it
+   · {0} out-of-range value(s) skipped
+  Boom
+  Crash
+  Shortage
+  Recession
+  Stimulus
+  A collector
+  Completes {0} x{1}
+    ·  Difficulty scaling off
+  Payday
+  Recovery
+  Finish {0} contracts as a team
+  Take down {0} elites (a boss counts 3)
+  Lose no more than {0} lives in the whole team (and clear 5 levels)
+  Reach a streak of {0} levels
+  Reach {0} more milestones
+  Payday drill
+  The Archivist
+  paid out
+  {0} lost so far
+  Sponsor {0}: half way there. +{1} Scrap and some Research Data
+  Sponsor {0}: goal met! +{1} Scrap and Research Data
+  Suppressor
+  Stock
+  Research sample
+  Anomaly sample
+  You
+  Player
+  Milestone {0}
+  chapter {0}
+  Victory
+  Milestone {0} payout
+  A boss kill
+  Level {0}: {1} - {2}{3}
+  {0} milestone boss{1} down
+  A {0}-level streak
+  Valuables extracted
+  Level haul
+  Team earnings
+  Windfall! Double Scrap from that extraction
+  gifting is turned off by the host
+  invalid amount
+  no save loaded
+  that player isn't here
+  Chapter {0}/{1}
+  one of each consumable per visit
+  consumable limit reached
+  2 locks at most
+  one futures order per visit
+  a curse
+  starter tool
+  Team contract failed
+  {0} (level {1})
+  ${0:N0} carried to extraction
+  revived a teammate in {0:0} s
+  {0:0} damage avoided
+  {0:0} HP healed on teammates
+  {0:0} monsters finished off
+  {0:0} elites down
+  Double or Nothing paid ${0:N0}
+  {0:0} monsters lured away
+  ${0:N0} moved by cart
+  ${0:N0} of value restored or insured
+  {0:0} Scrap earned
+  {0:0} contract{1} completed
+  first into {0:0} rooms
+  {0:0} monsters spotted
+  {0:0} valuables dispatched
+  a monster fight worth {0:0} damage
+  ${0:N0} lost to breaks
+  took {0:0} damage and walked out
+  {0:0.#} min with a synergy on
+  not a scratch, ${0:N0} carried
+  nothing to apply
+  {0} would go past its cap of {1}
+  only {0} attribute point{1} left
+  no attribute points left
+  the host is on a different save
+  invalid request
+  the host doesn't have your progress yet - try again in a moment
+  gamepad
+  Always
+  Never
+  unknown talent
+  not enough skill points
+  {0} unlocks at level {1}
+  no progress for that class yet
+  that prestige tree isn't unlocked
+  not that many perk picks
+  that pick isn't available
+  that perk isn't on offer
+  you already have that perk
+  the same perk was picked twice
+  unknown perk
+  that perk was banished
+  cursed perks are turned off
+  class selection is only open in the lobby or shop
+  PERFORMANCE
+  ELEMENT VISUALS
+  REDUCED
+  NAMEPLATE RANGE
+  HEALTH BAR RANGE
+  FLOOR RINGS
+   and {0} more
+  A player
+  Late-join starting Scrap
+   (everyone in it)

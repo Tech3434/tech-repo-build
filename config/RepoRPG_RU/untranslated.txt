@@ -1,0 +1,23 @@
+# RepoRPG RU 0.2.2 - тексты мода, которые остались английскими (целиком или частично; «~» - частично). С каждой новой версией русификатора файл начинается заново.
+WASD
+ENTER
+ESC
+REPORPG
+Midzuhico
+HUD
+Tau
+~ Dispatch: Toy Whisker Claw leaves in 10s - nobody touch it  =>  Отправка: Toy Whisker Claw leaves через 10 с - никому не трогать
+~ Отправка: Toy Whisker Claw leaves через 10 с - никому не трогать
+~ Dispatch: Valuable Arctic Usb stick leaves in 10s - nobody touch it  =>  Отправка: Valuable Arctic Usb stick leaves через 10 с - никому не трогать
+~ Отправка: Valuable Arctic Usb stick leaves через 10 с - никому не трогать
+PRIESTTECH
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 0</color>     Билд: <color=#ffd75a>Нераскрытый потенциал</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#a3a6ad>Потрачено: 0</color>     Билд: <color=#ffd75a>Нераскрытый потенциал</color>
+~ Dispatch: Valuable Wizard Love Potion leaves in 10s - nobody touch it  =>  Отправка: Valuable Wizard Love Potion leaves через 10 с - никому не трогать
+~ Отправка: Valuable Wizard Love Potion leaves через 10 с - никому не трогать
+~ Dispatch: Toy Fish leaves in 10s - nobody touch it  =>  Отправка: Toy Fish leaves через 10 с - никому не трогать
+~ Отправка: Toy Fish leaves через 10 с - никому не трогать
+~ Dispatch: Valuable Wizard Small Potion leaves in 10s - nobody touch it  =>  Отправка: Valuable Wizard Small Potion leaves через 10 с - никому не трогать
+~ Отправка: Valuable Wizard Small Potion leaves через 10 с - никому не трогать
+~ +62 опыта – Champions killed (x2)
+Dark Mac
