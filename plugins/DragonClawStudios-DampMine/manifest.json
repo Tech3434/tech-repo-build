@@ -1,9 +1,0 @@
-{
-  "name": "DampMine",
-  "description": "Adds a damp mine level.",
-  "version_number": "0.0.21",
-  "dependencies": [
-    "Zehs-REPOLib-4.2.0"
-  ],
-  "website_url": ""
-}
