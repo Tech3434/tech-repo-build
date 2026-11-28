@@ -1,2 +1,3 @@
 2026-11-23 23:30:18 [market] run 8e30e4de7f63 level 1: [market] after level 1: Art 1.12 Antiques 1.09 Electronics 1.12 Tech 1.12 Fragile 1.12 Heavy 1.04 Curiosities 0.85 Junk 1.08
 2026-11-24 00:01:48 [market] run 8e30e4de7f63 level 2: [market] after level 2: Art 1.17 Antiques 1.22 Electronics 1.26 Tech 1.26 Fragile 1.26 Heavy 1.04 Curiosities 0.72 Junk 1.17
+2026-11-28 02:30:21 [market] run a5692552d415 level 1: [market] after level 1: Art 1.14 Antiques 1.04 Electronics 1.14 Tech 1.14 Fragile 1.08 Heavy 1.06 Curiosities 0.88 Junk 0.93

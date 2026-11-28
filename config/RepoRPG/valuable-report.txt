@@ -1,29 +1,11 @@
 RepoRPG valuable values (1.0.100). Normalize on, up to 1,5x vanilla's top value per size, value multiplier x1, leave alone: ''.
-Catalog built from the levels' valuable lists (237 entries, 97,5 s).
+Catalog built from the levels' valuable lists (192 entries, 1,7 s).
 Vanilla top value per size: Tiny $3 000, Small $5 000, Medium $7 500, Big $12 000, Wide $50 000, Tall $45 000, Very tall $50 000.
 
 Valuable | Source | Size | Value range | After | Factor | Why
-Alien Cat | REPOLib (mod unknown) | Small | $18 000-$25 000 | $5 400-$7 500 | x0,3 | top $25 000 > 1,5x vanilla small top $5 000
-Munchkin | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-White Sphynx | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-Wood Statue | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-Scottish Fold | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-Underfoot | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-Persian | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-Galaxy Cat | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-Sphynx | REPOLib (mod unknown) | Medium | $9 500-$12 000 | $8 906-$11 250 | x0,938 | top $12 000 > 1,5x vanilla medium top $7 500
-Valuable Wizard Diamond | vanilla | Tiny | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Wizard Eye Ball | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Museum Blender | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Tall Guy Tower | REPOLib (mod unknown) | Tall | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Valuable Museum Tall Guy | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Museum Milk | vanilla | Tall | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Valuable Museum Tray | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Museum Traffic Light | vanilla | Very tall | $30 000-$45 000 | $30 000-$45 000 | x1 | 
 Valuable Arctic Keycard | vanilla | Tiny | $250-$500 | $250-$500 | x1 | 
-Valuable Wizard Glowing Jar | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Wizard Bug | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Museum Vinyl | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Wizard Glowing Jar | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Wizard Small Gem | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Wizard Small Potion | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Wizard Chomp Book | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
@@ -31,28 +13,21 @@ Valuable Wizard Love Potion | vanilla | Small | $2 000-$3 000 | $2 000-$3 00
 Valuable Wizard Red Mushroom | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Wizard Pendant | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Wizard Fortune Card | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Wizard Levitation Potion | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Wizard Gem Box | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Wizard Bird Skull | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Museum Worm | vanilla | Wide | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Valuable Museum Horse | vanilla | Wide | $30 000-$45 000 | $30 000-$45 000 | x1 | 
-Valuable Museum Egg | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Museum RubenDoll | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Museum GoldFish | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Museum Fish | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Museum Cool brain | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Museum Toast | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Museum GoldTooth | vanilla | Tiny | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Museum Wire Figure | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Museum Flesh Blob | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Museum Banana Bow | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Museum Cubic Tower | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Museum Car | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Museum ladybug | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Museum duck man | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Museum Cube ball | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Museum Cocktail | vanilla | Small | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Valuable Museum PimpleGuy | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Wizard Levitation Potion | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Wizard Crown | vanilla | Small | $500-$650 | $500-$650 | x1 | 
+Valuable Wizard Power Crystal | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Wizard Time Glass | vanilla | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
+Valuable Wizard Goblin Head | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Wizard Tentacle | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Wizard Star Wand | vanilla | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
+Valuable Wizard Poison Chalice | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Wizard Crystal | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Wizard Crystal Ball | vanilla | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
+Valuable Wizard Gem Box | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Wizard Eye of Orpigox | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Wizard Diamond | vanilla | Tiny | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Museum Traffic Light | vanilla | Very tall | $30 000-$45 000 | $30 000-$45 000 | x1 | 
 Valuable Museum Plane | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Museum Pacifier | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
 Valuable Museum MonkeyBox | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
@@ -60,20 +35,23 @@ Valuable Museum Gumball | vanilla | Medium | $5 500-$7 500 | $5 500-$7 500 |
 Valuable Museum Handface | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Museum Cubic Sculpture | vanilla | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
 Valuable Museum Teeth Bot | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Skelly | REPOLib (mod unknown) | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
 Valuable Museum Uranium Mug Deluxe | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
 Valuable Museum Golden Swirl | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Wizard Eye Ball | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Museum Boombox | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Valuable Museum Gem Burger | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
 Valuable Museum Baby Head | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Valuable Wizard Crown | vanilla | Small | $500-$650 | $500-$650 | x1 | 
-Valuable Wizard Power Crystal | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Wizard Poison Chalice | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Wizard Goblin Head | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Desert Horse on wheels | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Desert Lunch box | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Desert Post card | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Desert Sippy cup | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Museum Egg | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Museum Horse | vanilla | Wide | $30 000-$45 000 | $30 000-$45 000 | x1 | 
+Valuable Museum Worm | vanilla | Wide | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Museum Vinyl | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Museum Tray | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Museum Milk | vanilla | Tall | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Museum Tall Guy | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Museum Blender | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Museum Gem Burger | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
+Valuable Museum PimpleGuy | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Wizard Cube of Knowledge | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Wizard Unicorn Horn | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
 Valuable Desert Snake in a can | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Desert Harmonica | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Desert Pan Flute | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
@@ -81,10 +59,10 @@ Valuable Desert Backpack | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 
 Valuable Desert Cowboy action figure | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Desert Cowboy boot trophy | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
 Valuable Desert Fluffy Buddy | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Desert Gold Bar | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Desert Mineral case | vanilla | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
+Valuable Desert Rattlesnake | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Desert Sippy cup | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Desert Suitcase | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Desert Banjo | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Desert Golden Shovel | vanilla | Big | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Desert Golden Wheel | vanilla | Big | $4 500-$5 000 | $4 500-$5 000 | x1 | 
 Valuable Desert Energy Crystal Chunk | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
@@ -94,19 +72,10 @@ Valuable Desert Popcorn stand | vanilla | Wide | $18 000-$25 000 | $18 000-$2
 Valuable Desert Golfcart | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
 Valuable Desert Shooting Cowboy | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
 Valuable Desert Bird Cage | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Desert Rattlesnake | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Desert Fossil | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Desert Mouth Harp | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Desert Snow globe | vanilla | Tiny | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Wizard Tentacle | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Wizard Star Wand | vanilla | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Valuable Museum SilverFish | vanilla | Tiny | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Wizard Crystal | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Wizard Crystal Ball | vanilla | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Valuable Wizard Eye of Orpigox | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Wizard Cube of Knowledge | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Desert Banjo | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Wizard Master Potion | vanilla | Big | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Valuable Wizard Unicorn Horn | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Desert Post card | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Desert Horse on wheels | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Wizard Forever Candle | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
 Valuable Wizard Cauldron Box | vanilla | Big | $4 500-$5 000 | $4 500-$5 000 | x1 | 
 Valuable Wizard Spider Potion | vanilla | Big | $4 500-$5 000 | $4 500-$5 000 | x1 | 
@@ -116,45 +85,45 @@ Valuable Wizard Alchemy Station | vanilla | Wide | $18 000-$25 000 | $18 000-
 Valuable Wizard Goblin Arm | vanilla | Wide | $9 500-$12 000 | $9 500-$12 000 | x1 | 
 Valuable Wizard Dumgolfs Staff | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
 Valuable Wizard Sword | vanilla | Tall | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Desert Lunch box | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Wizard Broom | vanilla | Very tall | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Valuable Wizard Troll Finger | vanilla | Very tall | $45 000-$50 000 | $45 000-$50 000 | x1 | 
 Valuable Desert Golden Coin | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Desert Golden Horse Shoe | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Desert Golden lock | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Desert Lighter | vanilla | Tiny | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Desert Magnet | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Wizard Time Glass | vanilla | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Valuable Museum Tooth | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Manor Painting | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Manor Grandfather Clock | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Arctic Fire Extinguisher | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Arctic Icepick | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-American Short Hair | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Bengal | REPOLib (mod unknown) | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Black Cat | REPOLib (mod unknown) | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Blue Point | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Calico | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Devon Rex | REPOLib (mod unknown) | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Fleur | REPOLib (mod unknown) | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Genesis | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Gray Tabby | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Valuable Arctic Flashlight | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Meowl | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Pallas Cat | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Pink Cat | REPOLib (mod unknown) | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Ragdoll | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Russian Blue | REPOLib (mod unknown) | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Siamese | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Tortoise | REPOLib (mod unknown) | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Tuxedo | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-White Cat | REPOLib (mod unknown) | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Desert Snow globe | vanilla | Tiny | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Desert Mouth Harp | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Desert Fossil | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Desert Gold Bar | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Wizard Troll Finger | vanilla | Very tall | $45 000-$50 000 | $45 000-$50 000 | x1 | 
+Valuable Museum Cocktail | vanilla | Small | $4 500-$5 000 | $4 500-$5 000 | x1 | 
+Valuable Museum Cube ball | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Museum duck man | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Arctic Barrel | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
 Valuable Arctic Sample Cooler | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
 Valuable Arctic Big Sample | vanilla | Big | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Orange Tabby | REPOLib (mod unknown) | Medium | $4 500-$5 000 | $4 500-$5 000 | x1 | 
+Valuable Arctic Creature Leg | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Arctic Guitar | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Arctic Ice Saw | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Arctic Flamethrower | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Arctic Ice Block | vanilla | Wide | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Arctic Snow Bike | vanilla | Wide | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Arctic Icepick | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Arctic Centrifuge | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Arctic Science Station | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Arctic Heavy Water | vanilla | Tall | $30 000-$45 000 | $30 000-$45 000 | x1 | 
+Valuable Arctic Jackhammer | vanilla | Tall | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Arctic Server Rack | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Arctic Cryo Pod | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Manor Goblet | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Manor Uranium Mug | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Manor Emerald Bracelet | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Manor Ocarina | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Arctic Sample Cooler Wide | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Manor Pocket Watch | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Arctic Fire Extinguisher | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
 Valuable Arctic Scale | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Arctic Propane Tank | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Arctic 3D Printer | vanilla | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
 Valuable Arctic Uranium Petri Dish | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Arctic Eraser | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Arctic Pills | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
@@ -163,29 +132,52 @@ Valuable Arctic Usb stick | vanilla | Tiny | $500-$650 | $500-$650 | x1 |
 Valuable Arctic Coffee Cup | vanilla | Tiny | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Arctic Smartwatch | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Arctic Phone | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Toy Dino | REPOLib (mod unknown) | Tiny | $500-$650 | $500-$650 | x1 | 
-Toy Fish Taco | REPOLib (mod unknown) | Tiny | $850-$1 100 | $850-$1 100 | x1 | 
-Toy Fish | REPOLib (mod unknown) | Tiny | $500-$650 | $500-$650 | x1 | 
-Toy Mouse | REPOLib (mod unknown) | Tiny | $500-$650 | $500-$650 | x1 | 
-Toy Spring | REPOLib (mod unknown) | Tiny | $300-$450 | $300-$450 | x1 | 
-Toy Whisker Claw | REPOLib (mod unknown) | Tiny | $500-$650 | $500-$650 | x1 | 
 Valuable Arctic Bonsai | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Arctic Flashlight | vanilla | Medium | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Arctic HDD | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Arctic Calculator | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Arctic VHS | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
 Valuable Arctic Camera | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Bananip | REPOLib (mod unknown) | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Arctic Laptop | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Arctic Sample | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Arctic Sample Six Pack | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Arctic Fan | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Arctic Computer | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Arctic Creature Leg | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Valuable Arctic Guitar | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Arctic Ice Saw | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Arctic Flamethrower | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Arctic 3D Printer | vanilla | Medium | $5 500-$7 500 | $5 500-$7 500 | x1 | 
+Valuable Arctic Propane Tank | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Arctic Calculator | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Manor Music Box | vanilla | Small | $3 500-$4 500 | $3 500-$4 500 | x1 | 
+Valuable Manor Instrument | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Manor Doll | vanilla | Small | $500-$650 | $500-$650 | x1 | 
+Valuable Manor Animal Crate | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Manor Painting | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Manor Harp | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Manor Golden Statue | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Manor Grandfather Clock | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Manor Coffin | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Museum Tooth | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Museum SilverFish | vanilla | Tiny | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Museum RubenDoll | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Manor Dinosaur | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
+Valuable Museum GoldFish | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Museum Cool brain | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Museum Toast | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Museum GoldTooth | vanilla | Tiny | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Museum Wire Figure | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Museum Flesh Blob | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Museum Banana Bow | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Museum Cubic Tower | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Museum Car | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Museum ladybug | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Museum Fish | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
+Valuable Manor Piano | vanilla | Wide | $30 000-$45 000 | $30 000-$45 000 | x1 | 
+Valuable Manor Vase Big | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
+Valuable Manor Vase Chunky | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
+Valuable Manor Uranium Plate | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
+Valuable Manor Globe | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Manor Frog | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
+Valuable Manor Toy Monkey | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
+Valuable Manor Money | vanilla | Small | $500-$650 | $500-$650 | x1 | 
 Valuable Manor Vase Small | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-SmallVoodooDoll | REPOLib (mod unknown) | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Manor Radio | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
 Valuable Manor Gramophone | vanilla | Medium | $2 000-$3 000 | $2 000-$3 000 | x1 | 
 Valuable Manor Ship in a bottle | vanilla | Medium | $3 500-$4 500 | $3 500-$4 500 | x1 | 
@@ -201,42 +193,5 @@ Valuable Manor Television | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | 
 Valuable Manor Diamond Display | vanilla | Big | $4 500-$5 000 | $4 500-$5 000 | x1 | 
 Valuable Manor Scream Doll | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
 Valuable Manor Telescope | vanilla | Big | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Manor Vase Chunky | vanilla | Big | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Valuable Manor Vase Big | vanilla | Big | $5 500-$7 500 | $5 500-$7 500 | x1 | 
-Valuable Manor Piano | vanilla | Wide | $30 000-$45 000 | $30 000-$45 000 | x1 | 
-Valuable Manor Dinosaur | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Manor Animal Crate | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
 Valuable Desert Explosive Tower | vanilla | Very tall | $45 000-$50 000 | $45 000-$50 000 | x1 | 
-Valuable Manor Harp | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Manor Golden Statue | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Manor Money | vanilla | Small | $500-$650 | $500-$650 | x1 | 
-Valuable Manor Coffin | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Manor Toy Monkey | vanilla | Small | $850-$1 100 | $850-$1 100 | x1 | 
-Valuable Manor Globe | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Cat Tower 2 | REPOLib (mod unknown) | Big | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Cat Tower 3 | REPOLib (mod unknown) | Big | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Valuable Arctic Ice Block | vanilla | Wide | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Valuable Arctic Snow Bike | vanilla | Wide | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Valuable Arctic Centrifuge | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Arctic Sample Cooler Wide | vanilla | Wide | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Cyberpunk Cat | REPOLib (mod unknown) | Wide | $30 000-$45 000 | $30 000-$45 000 | x1 | 
-Gold Cat Statue | REPOLib (mod unknown) | Wide | $45 000-$50 000 | $45 000-$50 000 | x1 | 
-Photosynthesis Cat | REPOLib (mod unknown) | Wide | $30 000-$45 000 | $30 000-$45 000 | x1 | 
-Valuable Arctic Science Station | vanilla | Tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Arctic Heavy Water | vanilla | Tall | $30 000-$45 000 | $30 000-$45 000 | x1 | 
-Valuable Arctic Jackhammer | vanilla | Tall | $9 500-$12 000 | $9 500-$12 000 | x1 | 
-Cat Tower | REPOLib (mod unknown) | Tall | $4 500-$5 000 | $4 500-$5 000 | x1 | 
-Valuable Arctic Server Rack | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable Arctic Cryo Pod | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 
-Valuable LNB Warhead | REPOLib (mod unknown) | Tall | $30 000-$45 000 | $30 000-$45 000 | x1 | 
-Valuable Manor Goblet | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Manor Uranium Mug | vanilla | Tiny | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Manor Emerald Bracelet | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Manor Ocarina | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Manor Pocket Watch | vanilla | Tiny | $500-$650 | $500-$650 | x1 | 
-Valuable Manor Music Box | vanilla | Small | $3 500-$4 500 | $3 500-$4 500 | x1 | 
-Valuable Manor Instrument | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
-Valuable Manor Doll | vanilla | Small | $500-$650 | $500-$650 | x1 | 
-Valuable Manor Uranium Plate | vanilla | Small | $2 000-$3 000 | $2 000-$3 000 | x1 | 
-Valuable Manor Frog | vanilla | Small | $1 200-$2 000 | $1 200-$2 000 | x1 | 
 Valuable Desert Zero Grav crystal | vanilla | Very tall | $18 000-$25 000 | $18 000-$25 000 | x1 | 

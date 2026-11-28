@@ -1,0 +1,10 @@
+{
+  "name": "RepoRPG_KeepProgress",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Add-on for RepoRPG: keeps your class levels, talent points and attributes when everyone dies and a new run starts.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2305",
+    "ExtraCreamyMilk-RepoRPG-1.0.100"
+  ]
+}

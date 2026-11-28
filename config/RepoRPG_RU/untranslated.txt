@@ -27,3 +27,31 @@ Dark Mac
 ~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(1 applying...)</color>    <color=#a3a6ad>Потрачено: 7</color>     Билд: Специалист → <color=#ffd75a>Чародей</color>
 ~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 8</color>     Билд: <color=#ffd75a>Spellslinger</color>  =>  Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 8</color>     Билд: <color=#ffd75a>Чародей</color>
 ~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#a3a6ad>Потрачено: 8</color>     Билд: <color=#ffd75a>Чародей</color>
+DARK MAC
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(4 applying...)</color>    <color=#9a9ca0>Потрачено: 11</color>     Билд: <color=#ffd75a>Spellslinger</color>  =>  Очков характеристик на трату: <b>0</b>   <color=#73ff66>(4 applying...)</color>    <color=#9a9ca0>Потрачено: 11</color>     Билд: <color=#ffd75a>Чародей</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(4 applying...)</color>    <color=#a3a6ad>Потрачено: 11</color>     Билд: <color=#ffd75a>Чародей</color>
+TAU
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#b1b3ba>Потрачено: 0</color>     Билд: <color=#ffd75a>Нераскрытый потенциал</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#b1b3ba>Потрачено: 4</color>     Билд: Нераскрытый потенциал → <color=#ffd75a>Специалист</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 6</color>     Билд: <color=#ffd75a>Specialist</color>  =>  Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 6</color>     Билд: <color=#ffd75a>Специалист</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#b1b3ba>Потрачено: 6</color>     Билд: <color=#ffd75a>Специалист</color>
+Kirya
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(4 applying...)</color>    <color=#9a9ca0>Потрачено: 4</color>     Билд: Нераскрытый потенциал → <color=#ffd75a>Барахольщик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(4 applying...)</color>    <color=#b1b3ba>Потрачено: 4</color>     Билд: Нераскрытый потенциал → <color=#ffd75a>Барахольщик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 8</color>     Билд: <color=#ffd75a>Барахольщик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#b1b3ba>Потрачено: 8</color>     Билд: <color=#ffd75a>Барахольщик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(4 applying...)</color>    <color=#9a9ca0>Потрачено: 10</color>     Билд: <color=#ffd75a>Барахольщик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(4 applying...)</color>    <color=#b1b3ba>Потрачено: 10</color>     Билд: <color=#ffd75a>Барахольщик</color>
+MIDZUHICO
+~ Модификатор карты: Supply Drop (Monsters +10%; A supply crate falls mid-level (worth extra))
+paw66407
+paw66407  (Gambler)
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(6 applying...)</color>    <color=#9a9ca0>Потрачено: 10</color>     Билд: Барахольщик → <color=#ffd75a>Полевой медик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(6 applying...)</color>    <color=#b1b3ba>Потрачено: 10</color>     Билд: Барахольщик → <color=#ffd75a>Полевой медик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(1 applying...)</color>    <color=#9a9ca0>Потрачено: 16</color>     Билд: <color=#ffd75a>Полевой медик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(1 applying...)</color>    <color=#b1b3ba>Потрачено: 16</color>     Билд: <color=#ffd75a>Полевой медик</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 19</color>     Билд: Полевой медик → <color=#ffd75a>Balanced</color>  =>  Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#9a9ca0>Потрачено: 19</color>     Билд: Полевой медик → <color=#ffd75a>Сбалансированный</color>
+~ Очков характеристик на трату: <b>0</b>   <color=#73ff66>(2 applying...)</color>    <color=#b1b3ba>Потрачено: 19</color>     Билд: Полевой медик → <color=#ffd75a>Сбалансированный</color>
+~ <color=#9a9ca0>Needs a point in Call-outs · class level 13</color>  =>  <color=#9a9ca0>Needs a point in Call-outs · уровень класса 13</color>
+~ <color=#9a9ca0>Needs a point in Call-outs · уровень класса 13</color>
+~ <color=#babcc2>Needs a point in Call-outs · уровень класса 13</color>

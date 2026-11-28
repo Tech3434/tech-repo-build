@@ -1,34 +1,34 @@
 {
   "version": 1,
-  "probedUtc": "2026-11-25T20:13:14.9225580Z",
+  "probedUtc": "2026-11-27T23:07:32.2255504Z",
   "accent": "#ff0020",
   "text": "#ffffff",
   "muted": "#606060",
-  "panel": "#ff002080",
+  "panel": "#ff00008f",
   "shadow": "#00000060",
   "shadowOffset": 1,
   "font": "Teko-VariableFont_wght SDF 1",
-  "textsSeen": 49,
-  "imagesSeen": 52,
+  "textsSeen": 41,
+  "imagesSeen": 27,
   "fonts": [
-    "Teko-VariableFont_wght SDF 1 x49"
+    "Teko-VariableFont_wght SDF 1 x41"
   ],
   "textColors": [
-    "#ffffffff x11",
+    "#ffffffff x9",
     "#c7e7e7ff x8",
     "#ff0020ff x4",
-    "#ff8f00ff x3",
     "#606060ff x3",
     "#ffff00ff x3",
-    "#20ff00ff x2",
+    "#ff8f00ff x2",
     "#58ff70ff x2",
-    "#e730afff x2",
-    "#484848ff x2"
+    "#20ff00ff x2",
+    "#ffef008f x1",
+    "#ff6000ff x1"
   ],
   "panelColors": [
-    "#ff002080 x1",
+    "#ff00008f x1",
     "#ff00088f x1",
-    "#ff00008f x1"
+    "#ff002080 x1"
   ],
   "sounds": [
     "MenuEffectHover",
